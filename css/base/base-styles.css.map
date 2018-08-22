@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"base-styles.css"}
+{
+"version": 3,
+"mappings": "AAGA;IACK;EACH,eAAe,EAAE,UAAU;EAC3B,kBAAkB,EAAE,UAAU;EAC9B,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;;AAEd,EAAG;EACD,eAAe,EAAE,IAAI",
+"sources": ["../../scss/base/base-styles.scss"],
+"names": [],
+"file": "base-styles.css"
+}
