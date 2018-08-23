@@ -1,5 +1,6 @@
 button[class*=btn--] {
   padding: 10px 10px;
+  margin: 5px 0;
   border-radius: 5px;
   text-align: center;
   width: 90%;
@@ -462,6 +463,12 @@ p {
 .btn--info {
   background-color: #927bc1;
   color: white;
+}
+
+.grid__col--12 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .container {

@@ -12,3 +12,6 @@
         color: white;
     }
 } 
+.grid__col--12 {
+    @include flexy($wrap: wrap, $just: center); 
+}
