@@ -376,7 +376,7 @@ html {
   padding: 0px; }
 
 ul {
-  text-decoration: none; }
+  list-style: none; }
 
 .container {
   display: flex;
