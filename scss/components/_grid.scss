@@ -16,7 +16,7 @@
 // .theme__colors
 .container {
   @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);
-  padding: 0px;
+  padding: 20px;
 }
 .grid__row {
   @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);
@@ -26,3 +26,16 @@
     @include flexy($dir: row, $just: space-between, $wrap: nowrap);
   }
 }
+
+@for $i from 1 through 12 {
+  .grid__col--#{$i} {
+    width: 100%/12 * $i;
+    // border:2px solid black;
+  }
+}
+@each $grid-color, $color in $grid-colors {
+  .theme__colors.grid__col--#{$grid-color} {
+    background-color: $color;
+  }
+}
+

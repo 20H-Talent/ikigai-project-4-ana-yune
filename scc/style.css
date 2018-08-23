@@ -446,25 +446,25 @@ p {
 .grid__col--12 {
   width: 100%; }
 
-.theme__colors.grid__col--12 {
+.grid__col--grid__12 {
   background-color: #80e8d1; }
 
-.theme__colors.grid__col--6 {
+.grid__col--grid__6 {
   background-color: #3fabca; }
 
-.theme__colors.grid__col--4 {
+.grid__col--grid__4 {
   background-color: #67c5e4; }
 
-.theme__colors.grid__col--3 {
+.grid__col--grid__3 {
   background-color: #deb2ee; }
 
-.theme__colors.grid__col--5 {
+.grid__col--grid__5 {
   background-color: #63e963; }
 
-.theme__colors.grid__col--7 {
+.grid__col--grid__7 {
   background-color: #ec9fa3; }
 
-.theme__colors.grid__col--8 {
+.grid__col--grid__8 {
   background-color: #fac8ba; }
 
 ul.nav {
