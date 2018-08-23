@@ -16,12 +16,10 @@
 // .theme__colors
 .container {
   @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);
-  padding: 10px;
+  padding: 30px;
 }
 .grid__row {
   @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);
   width: 100%;
-  @media (min-width: $break-m) {
-    @include flexy($dir: row, $just: space-between, $wrap: nowrap);
-  }
+  @include media($break-m);
 }
