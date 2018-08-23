@@ -1,10 +1,9 @@
-button[class*=btn--] {
+button[class*="btn--"] {
   padding: 10px 10px;
   margin: 5px 0;
   border-radius: 5px;
   text-align: center;
-  width: 90%;
-}
+  width: 90%; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -398,34 +397,28 @@ p {
 
 .btn--default {
   background-color: #4dffff;
-  color: white;
-}
+  color: white; }
 
 .btn--success {
   background-color: #63cc82;
-  color: white;
-}
+  color: white; }
 
 .btn--error {
   background-color: #ec8268;
-  color: white;
-}
+  color: white; }
 
 .btn--warning {
   background-color: #fd7856;
-  color: white;
-}
+  color: white; }
 
 .btn--info {
   background-color: #927bc1;
-  color: white;
-}
+  color: white; }
 
 .grid__col--12 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .container {
   display: flex;
