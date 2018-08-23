@@ -378,6 +378,14 @@ html {
 ul {
   text-decoration: none; }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; }
+
 .grid__row {
   display: flex;
   flex-direction: column;
