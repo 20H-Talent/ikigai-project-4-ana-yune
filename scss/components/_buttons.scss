@@ -5,3 +5,13 @@
 // .btn--warning
 // .btn--info
 // .theme__colors.
+
+@each $button, $value in $buttons-colors {
+    .btn--#{$button} {
+        background-color: $value;
+        color: white;
+    }
+} 
+.grid__col--12 {
+    @include flexy($wrap: wrap, $just: center); 
+}
