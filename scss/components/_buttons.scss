@@ -5,3 +5,10 @@
 // .btn--warning
 // .btn--info
 // .theme__colors.
+
+@each $button, $value in $buttons-colors {
+    .btn--#{$button} {
+        background-color: $value;
+        color: white;
+    }
+} 
