@@ -1,7 +1,12 @@
 {
 "version": 3,
+<<<<<<< HEAD
+"mappings": "AAGA;IACK;EACH,eAAe,EAAE,UAAU;EAC3B,kBAAkB,EAAE,UAAU;EAC9B,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;;AAEd,EAAG;EACD,eAAe,EAAE,IAAI",
+"sources": ["../../scss/base/base-styles.scss"],
+=======
 "mappings": "",
 "sources": [],
+>>>>>>> cc6b49973ebb8d457ebde7bb274194eeee78f962
 "names": [],
 "file": "base-styles.css"
 }
