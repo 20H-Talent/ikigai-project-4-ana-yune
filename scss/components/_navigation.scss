@@ -1,2 +1,32 @@
 // Navigation:
 // .nav__item
+
+ul.nav {
+  @include flexy($just: center, $dir: column, $align: center);
+  font-family: $font-stack-primary;
+  .nav__item {
+    text-align: center;
+    color: $color-text;
+    border-radius: 4px;
+    padding: 0.5em;
+    display: block;
+    width: 100%;
+    transition-property: color, background-color;
+    transition-timing-function: ease;
+    font-weight: bold;
+    &:hover {
+      color: $color-hover;
+      background-color: $headl-primary-color;
+    }
+    a {
+      color: inherit;
+      text-decoration: inherit;
+      background: none;
+    }
+  }
+}
+
+ul.nav {
+  @include media($break-m) {
+  }
+}

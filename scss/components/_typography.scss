@@ -4,3 +4,11 @@
 // .blockquote
 // .headline--primary
 // .headline--secondary
+.headline--primary {
+  color: $headl-primary-color;
+  padding: 0px;
+  font-size: $headl-primary;
+}
+.headline-secondary {
+  font-weight: 300;
+}
