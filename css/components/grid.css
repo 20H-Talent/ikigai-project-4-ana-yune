@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'flexy'.
-        on line 19 of scss/components/grid.scss, in `flexy'
-        from line 19 of scss/components/grid.scss
+        on line 18 of scss/components/grid.scss, in `flexy'
+        from line 18 of scss/components/grid.scss
 
-14:     // .grid__col--11
-15:     // .grid__col--12
-16:     // .centered
-17:     // .theme__colors
-18:     .grid__row {
-19:         @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);
-20:         width: 100%;
-21:         @media (min-width: $break-m) {
-22:           @include flexy($dir: row, $just: space-between, $wrap: nowrap);
-23:         }
-24:       }
+13: // .grid__col--11
+14: // .grid__col--12
+15: // .centered
+16: // .theme__colors
+17: .container {
+18:   @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);
+19:   padding: 10px;
+20: }
+21: .grid__row {
+22:   @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);
+23:   width: 100%;
 
 Backtrace:
-scss/components/grid.scss:19:in `flexy'
-scss/components/grid.scss:19
+scss/components/grid.scss:18:in `flexy'
+scss/components/grid.scss:18
 /var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
 /var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:98:in `block in with_mixin'
 /var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:135:in `with_frame'
@@ -73,4 +73,4 @@ scss/components/grid.scss:19
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'flexy'.\A         on line 19 of scss/components/grid.scss, in `flexy'\A         from line 19 of scss/components/grid.scss\A \A 14:     // .grid__col--11\A 15:     // .grid__col--12\A 16:     // .centered\A 17:     // .theme__colors\A 18:     .grid__row {\A 19:         @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);\A 20:         width: 100%;\A 21:         @media (min-width: $break-m) {\A 22:           @include flexy($dir: row, $just: space-between, $wrap: nowrap);\A 23:         }\A 24:       }"; }
+  content: "Error: Undefined mixin 'flexy'.\A         on line 18 of scss/components/grid.scss, in `flexy'\A         from line 18 of scss/components/grid.scss\A \A 13: // .grid__col--11\A 14: // .grid__col--12\A 15: // .centered\A 16: // .theme__colors\A 17: .container {\A 18:   @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);\A 19:   padding: 10px;\A 20: }\A 21: .grid__row {\A 22:   @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);\A 23:   width: 100%;"; }
