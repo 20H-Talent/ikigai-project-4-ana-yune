@@ -394,7 +394,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 30px; }
+  padding: 0px; }
 
 .grid__row {
   display: flex;
@@ -408,8 +408,7 @@ p {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
-      justify-content: space-between;
-      align-items: center; } }
+      justify-content: space-between; } }
 
 ul.nav {
   display: flex;
@@ -441,7 +440,7 @@ ul.nav {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center; } }
+    text-align: center; } }
 
 .headline--primary {
   color: #58e1c1;

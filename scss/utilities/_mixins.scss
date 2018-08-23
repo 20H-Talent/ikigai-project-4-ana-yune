@@ -8,16 +8,9 @@
   align-items: $align;
 }
 
-@mixin media($media) {
-  @if $media == $break-m {
-    @media (min-width: $break-m) {
-      @include flexy(
-        $just: space-between,
-        $dir: row,
-        $align: center,
-        $wrap: nowrap
-      );
-    }
+@mixin media($size) {
+  @media (min-width: $size) {
     @content;
   }
 }
+

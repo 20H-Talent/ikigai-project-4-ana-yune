@@ -27,6 +27,8 @@ ul.nav {
 }
 
 ul.nav {
-  @include media($break-m) {
+  @include media(768px) {
+    @include flexy($dir: row, $just: space-between, $wrap: nowrap);
+    text-align: center;
   }
 }
