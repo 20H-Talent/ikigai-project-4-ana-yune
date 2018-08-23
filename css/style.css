@@ -388,6 +388,18 @@ p {
   margin: 40px auto;
   text-align: justify; }
 
+.form__label--hidden {
+  display: none; }
+
+.form__input {
+  border: none;
+  background: none;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 6px solid #51ddfc;
+  margin-bottom: 0.7rem; }
+
 .container {
   display: flex;
   flex-direction: column;
