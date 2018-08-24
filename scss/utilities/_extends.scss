@@ -1,9 +1,9 @@
-button[class*="btn--"] {
+ button[class*="btn--"] {
+   @extend %style-buttons-cols;
+   width: 100%;
+   margin: 5px 0;
+ }
+ div[class*="grid__col--"] {
     @extend %style-buttons-cols;
-    width: 90%;
-    margin: 5px 0;
-}
-div[class*="grid__col--"] {
-    @extend %style-buttons-cols;
-    margin: 3px 0;
+    margin: 3px 3px;
 }

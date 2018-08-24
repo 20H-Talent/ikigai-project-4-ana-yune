@@ -1,14 +1,15 @@
 button[class*="btn--"] {
-  width: 90%;
+  width: 100%;
   margin: 5px 0; }
 
 div[class*="grid__col--"] {
-  margin: 3px 0; }
+  margin: 3px 3px; }
 
 button[class*="btn--"], div[class*="grid__col--"] {
   padding: 10px 10px;
   border-radius: 5px;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -517,11 +518,6 @@ p {
 .grid__col--12 {
   width: 100%/12; }
 
-.grid__col--12 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-
 .theme__colors.grid__col--12 {
   background-color: #80e8d1; }
 
@@ -542,6 +538,9 @@ p {
 
 .theme__colors.grid__col--8 {
   background-color: #fac8ba; }
+
+.centered {
+  margin: auto !important; }
 
 ul.nav {
   display: flex;
