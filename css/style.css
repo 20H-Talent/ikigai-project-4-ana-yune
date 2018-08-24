@@ -493,6 +493,8 @@ p {
   padding-bottom: 0.9rem;
   border-bottom: 6px solid #51ddfc;
   margin-bottom: 0.7rem;
+  width: 87%;
+  margin-left: 6%;
 }
 
 .container {
