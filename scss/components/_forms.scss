@@ -1,4 +1,17 @@
 // Forms:
 // .form
 // .form__label--hidden
-// .form__input
+// .form__input.form__label--hidden{
+.form__label--hidden {
+  display: none;
+}
+
+.form__input {
+  border: none;
+  background: none;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 6px solid $color-bg;
+  margin-bottom: 0.7rem;
+}

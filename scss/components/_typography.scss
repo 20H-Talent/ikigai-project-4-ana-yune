@@ -6,9 +6,24 @@
 // .headline--secondary
 .headline--primary {
   color: $headl-primary-color;
-  padding: 0px;
+  padding: 20px;
   font-size: $headl-primary;
 }
 .headline-secondary {
   font-weight: 300;
+}
+a.link {
+  font-weight: bold;
+  color: $color-bg-light;
+  text-decoration: none;
+}
+.blockquote {
+  margin:20px 20px;
+  border-left: 10px solid $color-bg;
+  border-radius: 6px;
+  padding: 10px;
+  font-style: italic;
+  width: 100%;
+  font-size: $bquote;
+  color: $color-text;
 }
