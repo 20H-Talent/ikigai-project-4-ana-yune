@@ -45,6 +45,9 @@
       width: 15%;
       margin: 0 2%;
     }
+    button[type="submit"]{
+      width: 95%;
+    }
     div[class*="grid__col--"] {
       margin: 0 0.5%;
     }
