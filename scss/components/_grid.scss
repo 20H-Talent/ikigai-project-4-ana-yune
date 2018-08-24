@@ -35,6 +35,13 @@
       width: 15%;
       margin: 0 2%;
     }
+    div[class*="grid__col--"] {
+      margin: 0 0.5%;
+    }
+    // div[class="centered"] {
+    //   margin: 0 20%;
+    //   border: solid 1px pink;
+    // }
   }
 }
 

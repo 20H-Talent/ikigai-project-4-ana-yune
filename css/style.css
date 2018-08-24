@@ -554,6 +554,9 @@ p {
     width: 15%;
     margin: 0 2%;
   }
+  .grid__row div[class*=grid__col--] {
+    margin: 0 0.5%;
+  }
 }
 
 .grid__col--1 {
