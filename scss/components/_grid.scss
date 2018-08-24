@@ -41,29 +41,31 @@
       }
     }
     // div[class*="btn--"] {
-      button {
+    button {
       width: 15%;
-      margin: 0 2%;
+      margin: 0 1.5% 0 3%;
     }
+    
     button[type="submit"]{
       width: 95%;
+    }
+    .grid__col--12 {
+      button:nth-child(2n+3) {
+      width: 14%;
+      }
     }
     div[class*="grid__col--"] {
       margin: 0 0.5%;
     }
-    // div[class="centered"] {
-    //   margin: 0 20%;
-    //   border: solid 1px pink;
-    // }
   }
 }
 
 // // for .grid__col width to mobile
-@for $i from 1 through 12 {
-  .grid__col--#{$i} {
-    width: 100%/12;
-  }
-}
+// @for $i from 1 through 12 {
+//   .grid__col--#{$i} {
+//     width: 100%/12;
+//   }
+// }
 // .grid__col--12 {
 //   @include flexy($wrap: wrap, $just: center); 
 // }

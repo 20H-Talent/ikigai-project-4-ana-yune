@@ -561,62 +561,17 @@ p {
   }
   .grid__row button {
     width: 15%;
-    margin: 0 2%;
+    margin: 0 1.5% 0 3%;
   }
   .grid__row button[type=submit] {
     width: 95%;
   }
+  .grid__row .grid__col--12 button:nth-child(2n+3) {
+    width: 14%;
+  }
   .grid__row div[class*=grid__col--] {
     margin: 0 0.5%;
   }
-}
-
-.grid__col--1 {
-  width: 100%/12;
-}
-
-.grid__col--2 {
-  width: 100%/12;
-}
-
-.grid__col--3 {
-  width: 100%/12;
-}
-
-.grid__col--4 {
-  width: 100%/12;
-}
-
-.grid__col--5 {
-  width: 100%/12;
-}
-
-.grid__col--6 {
-  width: 100%/12;
-}
-
-.grid__col--7 {
-  width: 100%/12;
-}
-
-.grid__col--8 {
-  width: 100%/12;
-}
-
-.grid__col--9 {
-  width: 100%/12;
-}
-
-.grid__col--10 {
-  width: 100%/12;
-}
-
-.grid__col--11 {
-  width: 100%/12;
-}
-
-.grid__col--12 {
-  width: 100%/12;
 }
 
 .theme__colors.grid__col--12 {
@@ -732,7 +687,7 @@ a.link {
   padding: 20px;
   font-style: italic;
   width: 100%;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: #919191;
 }
 
