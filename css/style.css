@@ -1,5 +1,5 @@
 button[class*=btn--] {
-  width: 90%;
+  width: 95%;
   margin: 5px 0;
 }
 
@@ -550,6 +550,10 @@ p {
   .grid__row .grid__col--12 {
     width: 100%;
   }
+  .grid__row button {
+    width: 15%;
+    margin: 0 2%;
+  }
 }
 
 .grid__col--1 {
@@ -598,12 +602,6 @@ p {
 
 .grid__col--12 {
   width: 100%/12;
-}
-
-.grid__col--12 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .theme__colors.grid__col--12 {

@@ -30,7 +30,11 @@
         width: 100%/12 * $i;
       }
     }
-
+    // div[class*="btn--"] {
+      button {
+      width: 15%;
+      margin: 0 2%;
+    }
   }
 }
 
@@ -40,9 +44,9 @@
     width: 100%/12;
   }
 }
-.grid__col--12 {
-  @include flexy($wrap: wrap, $just: center); 
-}
+// .grid__col--12 {
+//   @include flexy($wrap: wrap, $just: center); 
+// }
 
 @each $grid-color, $color in $grid-colors {
   .theme__colors.grid__col--#{$grid-color} {
