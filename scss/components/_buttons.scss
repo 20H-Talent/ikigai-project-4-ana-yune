@@ -7,10 +7,10 @@
 // .theme__colors.
 
 @each $button, $value in $buttons-colors {
-    .btn--#{$button} {
-        background-color: $value;
-        color: white;
-    }
+  .btn--#{$button} {
+    background-color: $value;
+    color: white;
+  }
 }
 // div[class="grid__row"] div[class="grid__col--12"]{
 //     @include flexy($dir: row, $wrap: wrap, $just: space-between);

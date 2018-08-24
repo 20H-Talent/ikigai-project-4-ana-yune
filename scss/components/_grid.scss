@@ -21,12 +21,22 @@
 .grid__row {
   @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);
   width: 100%;
+  margin: 20px;
+  // .container>div {
+  //   flex: 0 50%;
+
+  //   }
 
   @include media(768px) {
-    @include flexy($dir: row, $just: space-between, $wrap: nowrap);
+    @include flexy(
+      $dir: row,
+      $just: space-around,
+      $wrap: nowrap,
+      $align: space-around
+    );
     // for .grid__col width to 768px
     @for $i from 1 through 12 {
-      .grid__col--#{$i} {
+      .theme__colors.grid__col--#{$i} {
         width: 100%/12 * $i;
       }
     }
@@ -45,7 +55,7 @@
   }
 }
 
-// for .grid__col width to mobile
+// // for .grid__col width to mobile
 @for $i from 1 through 12 {
   .grid__col--#{$i} {
     width: 100%/12;
@@ -60,4 +70,6 @@
     background-color: $color;
   }
 }
-
+.centered {
+  margin: auto !important;
+}

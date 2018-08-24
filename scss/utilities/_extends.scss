@@ -3,7 +3,3 @@ button[class*="btn--"] {
     width: 95%;
     margin: 5px 0;
 }
-div[class*="grid__col--"] {
-    @extend %style-buttons-cols;
-    margin: 3px 0;
-}

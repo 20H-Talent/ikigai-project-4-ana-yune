@@ -28,7 +28,7 @@ ul.nav {
 
 ul.nav {
   @include media(768px) {
-    @include flexy($dir: row, $just: space-between, $wrap: nowrap);
+    @include flexy($dir: row, $just: space-around, $wrap: nowrap);
     text-align: center;
   }
 }
