@@ -2,3 +2,17 @@
 // .img--logo
 // .img--frame
 // .img--avatar
+.img {
+    &--logo {
+      @include images("logo");
+    }
+  
+    &--frame {
+      @include images("frame");
+    }
+  
+    &--avatar {
+      @include images("avatar");
+    }
+  }
+  

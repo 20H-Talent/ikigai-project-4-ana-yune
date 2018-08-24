@@ -450,13 +450,15 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 100%; }
+  width: 100%;
+  margin: 20px; }
   @media (min-width: 768px) {
     .grid__row {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
-      justify-content: space-between; }
+      justify-content: space-around;
+      align-items: space-around; }
       .grid__row .theme__colors.grid__col--1 {
         width: 8.3333333333%; }
       .grid__row .theme__colors.grid__col--2 {
@@ -482,6 +484,42 @@ p {
       .grid__row .theme__colors.grid__col--12 {
         width: 100%; } }
 
+.grid__col--1 {
+  width: 100%/12; }
+
+.grid__col--2 {
+  width: 100%/12; }
+
+.grid__col--3 {
+  width: 100%/12; }
+
+.grid__col--4 {
+  width: 100%/12; }
+
+.grid__col--5 {
+  width: 100%/12; }
+
+.grid__col--6 {
+  width: 100%/12; }
+
+.grid__col--7 {
+  width: 100%/12; }
+
+.grid__col--8 {
+  width: 100%/12; }
+
+.grid__col--9 {
+  width: 100%/12; }
+
+.grid__col--10 {
+  width: 100%/12; }
+
+.grid__col--11 {
+  width: 100%/12; }
+
+.grid__col--12 {
+  width: 100%/12; }
+
 .theme__colors.grid__col--12 {
   background-color: #80e8d1; }
 
@@ -505,6 +543,26 @@ p {
 
 .centered {
   margin: auto !important; }
+
+.img--logo {
+  display: inline-block;
+  max-width: 200px;
+  margin-left: 20px;
+  height: auto; }
+.img--frame {
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 12px;
+  max-width: 400px; }
+.img--avatar {
+  display: inline-block;
+  max-width: 200px;
+  padding: 10px;
+  margin-left: 30px; }
 
 ul.nav {
   display: flex;
@@ -544,6 +602,7 @@ ul.nav {
   font-size: 1.7rem; }
 
 .headline-secondary {
+  margin-bottom: 40px;
   font-weight: 300; }
 
 a.link {
@@ -552,10 +611,10 @@ a.link {
   text-decoration: none; }
 
 .blockquote {
-  margin: 20px 20px;
+  margin: 20px auto;
   border-left: 10px solid #51ddfc;
   border-radius: 6px;
-  padding: 10px;
+  padding: 20px;
   font-style: italic;
   width: 100%;
   font-size: 1.7rem;
