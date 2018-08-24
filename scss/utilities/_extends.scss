@@ -1,5 +1,9 @@
 button[class*="btn--"] {
-    @extend %style-buttons-cols;
-    width: 95%;
-    margin: 5px 0;
+  @extend %style-buttons-cols;
+  width: 100%;
+  margin: 5px 0;
+}
+div[class*="theme__colors"] {
+  @extend %style-buttons-cols;
+  margin: 3px 3px;
 }

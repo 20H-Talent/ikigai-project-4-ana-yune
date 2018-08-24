@@ -14,20 +14,23 @@
   }
 }
 @mixin images($image) {
-  display:inline-block;
+  
   @if $image == "frame" {
-    @include flexy($dir: row, $just: space-around);
+    // @include flexy($dir: row, $just: space-around);
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 12px;
+    margin-left:auto;
+    height: auto;
     max-width: 400px;
   } @else if($image == "logo") {
     max-width: 200px;
     margin-left: 20px;
-    height: auto;
+    
   } @else {
     max-width: 200px;
     padding:10px;
-    margin-left:30px;
+    margin-left:40px;
+    height: auto;
   }
 }
