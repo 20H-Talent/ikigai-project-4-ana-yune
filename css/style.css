@@ -2,10 +2,10 @@ button[class*="btn--"] {
   width: 100%;
   margin: 5px 0; }
 
-div[class*="grid__col--"] {
+div[class*="theme__colors"] {
   margin: 3px 3px; }
 
-button[class*="btn--"], div[class*="grid__col--"] {
+button[class*="btn--"], div[class*="theme__colors"] {
   padding: 10px 10px;
   border-radius: 5px;
   text-align: center;
@@ -457,66 +457,30 @@ p {
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: space-between; }
-      .grid__row .grid__col--1 {
+      .grid__row .theme__colors.grid__col--1 {
         width: 8.3333333333%; }
-      .grid__row .grid__col--2 {
+      .grid__row .theme__colors.grid__col--2 {
         width: 16.6666666667%; }
-      .grid__row .grid__col--3 {
+      .grid__row .theme__colors.grid__col--3 {
         width: 25%; }
-      .grid__row .grid__col--4 {
+      .grid__row .theme__colors.grid__col--4 {
         width: 33.3333333333%; }
-      .grid__row .grid__col--5 {
+      .grid__row .theme__colors.grid__col--5 {
         width: 41.6666666667%; }
-      .grid__row .grid__col--6 {
+      .grid__row .theme__colors.grid__col--6 {
         width: 50%; }
-      .grid__row .grid__col--7 {
+      .grid__row .theme__colors.grid__col--7 {
         width: 58.3333333333%; }
-      .grid__row .grid__col--8 {
+      .grid__row .theme__colors.grid__col--8 {
         width: 66.6666666667%; }
-      .grid__row .grid__col--9 {
+      .grid__row .theme__colors.grid__col--9 {
         width: 75%; }
-      .grid__row .grid__col--10 {
+      .grid__row .theme__colors.grid__col--10 {
         width: 83.3333333333%; }
-      .grid__row .grid__col--11 {
+      .grid__row .theme__colors.grid__col--11 {
         width: 91.6666666667%; }
-      .grid__row .grid__col--12 {
+      .grid__row .theme__colors.grid__col--12 {
         width: 100%; } }
-
-.grid__col--1 {
-  width: 100%/12; }
-
-.grid__col--2 {
-  width: 100%/12; }
-
-.grid__col--3 {
-  width: 100%/12; }
-
-.grid__col--4 {
-  width: 100%/12; }
-
-.grid__col--5 {
-  width: 100%/12; }
-
-.grid__col--6 {
-  width: 100%/12; }
-
-.grid__col--7 {
-  width: 100%/12; }
-
-.grid__col--8 {
-  width: 100%/12; }
-
-.grid__col--9 {
-  width: 100%/12; }
-
-.grid__col--10 {
-  width: 100%/12; }
-
-.grid__col--11 {
-  width: 100%/12; }
-
-.grid__col--12 {
-  width: 100%/12; }
 
 .theme__colors.grid__col--12 {
   background-color: #80e8d1; }
@@ -571,7 +535,7 @@ ul.nav {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center; } }
 
 .headline--primary {

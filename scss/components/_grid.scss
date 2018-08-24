@@ -26,21 +26,19 @@
     @include flexy($dir: row, $just: space-between, $wrap: nowrap);
     // for .grid__col width to 768px
     @for $i from 1 through 12 {
-      .grid__col--#{$i} {
+      .theme__colors.grid__col--#{$i} {
         width: 100%/12 * $i;
       }
     }
-
   }
 }
 
-// for .grid__col width to mobile
-@for $i from 1 through 12 {
-  .grid__col--#{$i} {
-    width: 100%/12;
-  }
-}
-
+// // for .grid__col width to mobile
+// @for $i from 1 through 12 {
+//   .grid__col--#{$i} {
+//     width: 100%/12;
+//   }
+// }
 
 @each $grid-color, $color in $grid-colors {
   .theme__colors.grid__col--#{$grid-color} {
@@ -48,6 +46,5 @@
   }
 }
 .centered {
-  margin: auto!important;
+  margin: auto !important;
 }
-
