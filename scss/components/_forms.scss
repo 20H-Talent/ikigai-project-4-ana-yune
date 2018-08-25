@@ -17,10 +17,14 @@
   // margin-bottom: 0.7rem;
   width: 87%;
   // margin-left: 6%;
-  margin: 1rem 0 1rem 6%;
+  margin: 1rem;
 }
 @include media(768px) {
   .form__input {
     margin-left: 8%;
   }
+}
+
+.form {
+  @include flexy($dir: column, $align: center);
 }
