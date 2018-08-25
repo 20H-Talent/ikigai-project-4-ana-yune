@@ -22,10 +22,6 @@
   @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);
   width: 100%;
   margin: 20px;
-  // .container>div {
-  //   flex: 0 50%;
-
-  //   }
 
   @include media(768px) {
     @include flexy(
@@ -40,35 +36,29 @@
         width: 100%/12 * $i;
       }
     }
-    // div[class*="btn--"] {
-    button {
-      width: 15%;
-      margin: 0 1.5% 0 3%;
+        
+    // flexy for buttons of col--12.
+    div[class="grid__col--12"]{
+    @include flexy($just: space-between);
+    button{
+      width: 20%;
+      align-self: center;
+      flex-basis: 17%;
     }
-    
+    & :nth-child(2n+3){
+      width: 19%;
+    }
+    }
     button[type="submit"]{
-      width: 95%;
+      width: 100%;
     }
-    .grid__col--12 {
-      button:nth-child(2n+3) {
-      width: 14%;
-      }
-    }
-    div[class*="grid__col--"] {
-      margin: 0 0.5%;
+    // for grid-cols to separate between them
+    // to take the 2nd and the siblings.
+    div:nth-child(1n+2){
+      margin-left: 2%;
     }
   }
 }
-
-// // for .grid__col width to mobile
-// @for $i from 1 through 12 {
-//   .grid__col--#{$i} {
-//     width: 100%/12;
-//   }
-// }
-// .grid__col--12 {
-//   @include flexy($wrap: wrap, $just: center); 
-// }
 
 @each $grid-color, $color in $grid-colors {
   .theme__colors.grid__col--#{$grid-color} {
