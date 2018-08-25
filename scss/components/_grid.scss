@@ -58,7 +58,12 @@
       margin-left: 2%;
     }
   }
+  div[class="grid__col--6"]{
+    @include flexy($dir: column, $align: center);
+  }
+
 }
+
 
 @each $grid-color, $color in $grid-colors {
   .theme__colors.grid__col--#{$grid-color} {
