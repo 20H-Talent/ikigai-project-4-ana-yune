@@ -16,54 +16,53 @@
 // .theme__colors
 .container {
   @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);
+  @include media(768px) {
+    width: 95%;
+    margin-left:15px;
+  }
   padding: 20px;
 }
 .grid__row {
   @include flexy($wrap: wrap, $just: center);
   width: 100%;
-  margin: 20px;
-  padding:10px;
+  // margin: 20px;
+  padding: 10px;
 
   @include media(768px) {
-    @include flexy(
-      $dir: row,
-      $wrap: nowrap );
+    @include flexy($dir: row, $wrap: nowrap);
     // for .grid__col width to 768px
     @for $i from 1 through 12 {
       .grid__col--#{$i} {
         width: 100%/12 * $i;
       }
     }
-        
+
     // flexy for buttons of col--12.
-    div[class="grid__col--12"]{
-    @include flexy($just: space-between);
-    button{
-      width: 20%;
-      align-self: center;
-      flex-basis: 17%;
+    div[class="grid__col--12"] {
+      @include flexy($just: space-between);
+      button {
+        width: 20%;
+        align-self: center;
+        flex-basis: 17%;
+      }
+      & :nth-child(2n + 3) {
+        width: 19%;
+      }
     }
-    & :nth-child(2n+3){
-      width: 19%;
-    }
-    }
-    button[type="submit"]{
+    button[type="submit"] {
       width: 100%;
     }
     // for grid-cols to separate between them
     // to take the 2nd and the siblings.
-    div:nth-child(1n+2){
+    div:nth-child(1n + 2) {
       margin-left: 2%;
-      height:100%;
-      
+      height: 100%;
     }
   }
-  div[class="grid__col--6"]{
+  div[class="grid__col--6"] {
     @include flexy($dir: column, $align: center);
   }
-
 }
-
 
 @each $grid-color, $color in $grid-colors {
   .theme__colors.grid__col--#{$grid-color} {

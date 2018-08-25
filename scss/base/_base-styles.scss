@@ -10,16 +10,16 @@ html {
   padding: 0px;
   color: $color-text;
   font-family: Helvetica, sans-serif;
-   width: $width;
+  width: $width;
 }
 ul {
   list-style: none;
 }
 p {
   color: $color-text;
-  font-size: $text-primary;
-  line-height: 1.4;
-  margin-bottom:20px;
-  text-align: start;
 
+  line-height: 1.4;
+  margin-bottom: 20px;
+  margin-top:10px;
+  text-align: start;
 }
