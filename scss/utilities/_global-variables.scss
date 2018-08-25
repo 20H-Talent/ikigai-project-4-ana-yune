@@ -3,16 +3,16 @@
 //Colors
 $white: #fff;
 $color-text: #919191;
-$color-bg: #51ddfc;
-$color-bg-light: #009fe1;
+$color-bg: #58e1c1;
+$color-bg-light: #51ddfc;
 $color-hover: #fafafa;
 $headl-primary-color: #58e1c1;
 $login: #51ddfc;
 
 $buttons-colors: (
-  'default': #4dffff,
+  'default': #51ddfc,
   'success': #63cc82,
-  'error': #ec8268,
+  'error': #e4757a,
   'warning': #fd7856,
   'info': #927bc1,
 );
@@ -20,11 +20,11 @@ $buttons-colors: (
 $grid-colors: (
   '12': #80e8d1,
   '6': #3fabca,
-  '4': #67c5e4,
+  '4': #7ee6fd,
   '3': #deb2ee,
-  '5': #63e963,
+  '5': #88d9a0,
   '7': #ec9fa3,
-  '8': #fac8ba
+  '8': #fd9f85
 );
 
 //Fonts
