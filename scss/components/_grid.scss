@@ -19,9 +19,10 @@
   padding: 20px;
 }
 .grid__row {
-  @include flexy($wrap: wrap, $just: center, $dir: column);
+  @include flexy($wrap: wrap, $just: center);
   width: 100%;
   margin: 20px;
+  padding:10px;
 
   @include media(768px) {
     @include flexy(
@@ -53,6 +54,8 @@
     // to take the 2nd and the siblings.
     div:nth-child(1n+2){
       margin-left: 2%;
+      height:100%;
+      
     }
   }
   div[class="grid__col--6"]{

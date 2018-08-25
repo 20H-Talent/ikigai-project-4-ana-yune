@@ -15,19 +15,17 @@
 }
 @mixin images($image) {
   @if $image == "frame" {
-    // @include flexy($dir: row, $just: space-around);
     border: 1px solid #ddd;
     padding: 12px;
-    // margin-left:auto;
     height: auto;
-    max-width: 95%;
+    max-width: 350px;
   } @else if($image == "logo") {
     max-width: 200px;
     margin-left: 20px;
   } @else {
     max-width: 200px;
-
-    // margin-left:40px;
+    padding: 20px auto;
+    margin-top: 10px;
     height: auto;
   }
 }

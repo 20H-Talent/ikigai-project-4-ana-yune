@@ -6,11 +6,11 @@
 // .headline--secondary
 .headline--primary {
   color: $headl-primary-color;
-  padding: 20px;
+  padding: 10px;
   font-size: $headl-primary;
 }
-h4 {
-  margin-bottom: 40px;
+.headline--secondary {
+ margin-bottom: 30px;
   font-weight: 500;
 }
 a.link {
@@ -19,7 +19,7 @@ a.link {
   text-decoration: none;
 }
 .blockquote {
-  margin: 5px 20px 30px 20px;
+  margin: 5px 20px 40px 20px;
   border-left: 10px solid $color-bg;
   border-radius: 6px;
   padding-left: 15px;
