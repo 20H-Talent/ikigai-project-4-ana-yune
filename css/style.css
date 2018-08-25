@@ -493,7 +493,7 @@ p {
   padding-bottom: 0.9rem;
   border-bottom: 6px solid #51ddfc;
   width: 87%;
-  margin: 1rem 0 1rem 6%;
+  margin: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -501,6 +501,12 @@ p {
     margin-left: 8%;
   }
 }
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -580,6 +586,11 @@ p {
     margin-left: 2%;
   }
 }
+.grid__row div[class=grid__col--6] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .theme__colors.grid__col--12 {
   background-color: #80e8d1;
@@ -619,16 +630,13 @@ p {
 }
 .img--frame {
   border: 1px solid #ddd;
-  border-radius: 4px;
   padding: 12px;
-  margin-left: auto;
   height: auto;
-  max-width: 400px;
+  max-width: 95%;
 }
 .img--avatar {
   max-width: 200px;
   padding: 10px;
-  margin-left: 40px;
   height: auto;
 }
 
