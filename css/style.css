@@ -520,8 +520,6 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: space-around;
   }
   .grid__row .grid__col--1 {
     width: 8.3333333333%;

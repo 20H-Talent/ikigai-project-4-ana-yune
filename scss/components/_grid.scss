@@ -30,9 +30,9 @@
   @include media(768px) {
     @include flexy(
       $dir: row,
-      $just: space-around,
-      $wrap: nowrap,
-      $align: space-around
+      // $just: space-around,
+      $wrap: nowrap
+      // $align: space-around
     );
     // for .grid__col width to 768px
     @for $i from 1 through 12 {
