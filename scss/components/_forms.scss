@@ -2,7 +2,12 @@
 // .form
 // .form__label--hidden
 // .form__input.form__label--hidden{
-
+form{
+  @include media(768px){
+    width:90%;
+    
+  }
+}
 .form__label--hidden {
   display: none;
 }
