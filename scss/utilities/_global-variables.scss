@@ -1,14 +1,14 @@
 // create variables for fonts, breakpoints, and colors.// Use this partial to create variables for your repeated values. At minimum, create variables for fonts, breakpoints, and colors. Import this partial into your utilities/index.scss file
 
-//Colors
+// Colors of Fonts
 $white: #fff;
 $color-text: #919191;
 $color-bg: #58e1c1;
 $color-bg-light: #51ddfc;
 $color-hover: #fafafa;
 $headl-primary-color: #58e1c1;
-$login: #51ddfc;
 
+// Colors of Buttons
 $buttons-colors: (
   'default': #51ddfc,
   'success': #63cc82,
@@ -17,6 +17,7 @@ $buttons-colors: (
   'info': #927bc1,
 );
 
+// Colors of Grids
 $grid-colors: (
   '12': #80e8d1,
   '6': #3fabca,
