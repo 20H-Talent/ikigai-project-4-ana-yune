@@ -14,8 +14,13 @@
   padding-left: 0.5rem;
   padding-bottom: 0.9rem;
   border-bottom: 6px solid $color-bg;
-  margin-bottom: 0.7rem;
+  // margin-bottom: 0.7rem;
   width: 87%;
-  margin-left: 6%;
-
+  // margin-left: 6%;
+  margin: 1rem 0 1rem 6%;
+}
+@include media(768) {
+  .form__input {
+    margin-left: 7%;
+  }
 }
