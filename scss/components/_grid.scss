@@ -17,8 +17,9 @@
 .container {
   @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);
   @include media(768px) {
-    width: 95%;
-    margin-left:15px;
+    // width: 95%;
+    // margin-left:15px;
+    padding: 40px;
   }
   padding: 20px;
 }
