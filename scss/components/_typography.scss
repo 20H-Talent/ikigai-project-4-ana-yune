@@ -46,15 +46,18 @@ a.link {
   @include media(1440px) {
     font-size: get-vw(32px);
   }
-  @include media(768px){
+  @include media(768px) {
     font-size: get-vw(30px);
-}
+  }
 }
 .headline--primary {
   @include media(1440px) {
     font-size: get-vw(33px);
   }
-  @include media(768px){
-    font-size: get-vw(45px);
-}
+  @include media(768px) {
+    font-size: get-vw(38px);
+  }
+  @include media(1024px) {
+    font-size: get-vw(90px);
+  }
 }
