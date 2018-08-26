@@ -453,10 +453,10 @@ form {
 .form__input {
   border: none;
   background: none;
-  font-weight: bold;
+  font-weight: 500;
   padding-left: 0.5rem;
-  padding-bottom: 0.9rem;
-  border-bottom: 6px solid #58e1c1;
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid #58e1c1;
   width: 90%;
   margin: 1rem; }
 
@@ -641,6 +641,9 @@ a.link {
 @media (min-width: 1440px) {
   .headline--secondary {
     font-size: 1.3888888889vw; } }
+@media (min-width: 768px) {
+  .headline--secondary {
+    font-size: 1.7361111111vw; } }
 
 @media (min-width: 1440px) {
   .blockquote {

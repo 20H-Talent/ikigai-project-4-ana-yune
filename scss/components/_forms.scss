@@ -20,11 +20,10 @@ form {
 .form__input {
   border: none;
   background: none;
-  font-weight: bold;
+  font-weight: 500;
   padding-left: 0.5rem;
-  padding-bottom: 0.9rem;
-  border-bottom: 6px solid $color-bg;
-  // margin-bottom: 0.7rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid $color-bg;
   width: 90%;
   margin: 1rem;
 }
