@@ -15,7 +15,7 @@
 }
 @mixin images($image) {
   @if $image == "frame" {
-    border: 1px solid #ddd;
+    border: 1px solid #d3d3d3;
     padding: 12px;
     height: auto;
     max-width: 95%;
@@ -24,10 +24,8 @@
     margin-bottom: 20px;
     margin-left: 20px;
   } @else {
-    max-width: 50%;
-    // padding: 20px auto;
+    max-width: 50%;;
     margin-top: 10px;
-
     height: auto;
   }
 }

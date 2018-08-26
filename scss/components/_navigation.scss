@@ -35,8 +35,8 @@ ul.nav {
 nav {
   @include media(768px) {
     @include flexy($just: center, $dir: row, $align: center);
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 100px;
-    width: 60%;
+    width: 70%;
   }
 }

@@ -18,8 +18,7 @@ ul {
 p {
   color: $color-text;
 // AQUI IRIA LA LLAMADA A LA FUNCION.
-  line-height: 1.6;
-  margin-bottom: 20px;
+  line-height: 1.4;
   margin-top:10px;
   text-align: start;
    
@@ -27,5 +26,11 @@ p {
 p{
   @include media(1440px){
     font-size: get-vw(20px);
+  }
+  @include media(768px) {
+    font-size: get-vw(22px);
+  }
+  @include media(1024px) {
+    font-size: get-vw(23px);
   }
 }

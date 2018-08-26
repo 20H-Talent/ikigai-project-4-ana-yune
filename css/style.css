@@ -386,7 +386,7 @@ html {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  color: #919191;
+  color: #80938f;
   font-family: Helvetica, sans-serif;
   width: 100%; }
 
@@ -394,15 +394,20 @@ ul {
   list-style: none; }
 
 p {
-  color: #919191;
-  line-height: 1.6;
-  margin-bottom: 20px;
+  color: #80938f;
+  line-height: 1.4;
   margin-top: 10px;
   text-align: start; }
 
 @media (min-width: 1440px) {
   p {
     font-size: 1.3888888889vw; } }
+@media (min-width: 768px) {
+  p {
+    font-size: 1.5277777778vw; } }
+@media (min-width: 1024px) {
+  p {
+    font-size: 1.5972222222vw; } }
 
 .btn--default {
   background-color: #51ddfc;
@@ -432,7 +437,8 @@ p {
 form {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  width: 100%; }
   @media (min-width: 768px) {
     form {
       width: 100%;
@@ -462,8 +468,8 @@ form {
   padding: 15px; }
   @media (min-width: 768px) {
     .container {
-      padding-left: 50px;
-      padding-right: 50px; } }
+      padding-left: 60px;
+      padding-right: 60px; } }
 
 .grid__row {
   display: flex;
@@ -512,7 +518,7 @@ form {
       .grid__row button[type="submit"] {
         width: 100%; }
       .grid__row div:nth-child(1n + 2) {
-        margin-left: 1%; } }
+        margin-left: 2%; } }
   .grid__row div[class="grid__col--6"] {
     display: flex;
     flex-direction: column;
@@ -547,7 +553,7 @@ form {
   margin-bottom: 20px;
   margin-left: 20px; }
 .img--frame {
-  border: 1px solid #ddd;
+  border: 1px solid #d3d3d3;
   padding: 12px;
   height: auto;
   max-width: 95%; }
@@ -564,7 +570,7 @@ ul.nav {
   font-family: "Helvetica neue", sans-serif; }
   ul.nav .nav__item {
     text-align: center;
-    color: #919191;
+    color: #80938f;
     border-radius: 4px;
     padding: 0.5em;
     display: block;
@@ -594,9 +600,9 @@ ul.nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 100px;
-    width: 60%; } }
+    width: 70%; } }
 
 .headline--primary {
   color: #58e1c1;
@@ -625,7 +631,7 @@ a.link {
   font-style: italic;
   width: 90%;
   font-size: 1.3rem;
-  color: #919191; }
+  color: #80938f; }
 
 .card {
   display: flex;
@@ -640,7 +646,7 @@ a.link {
     font-size: 2.2222222222vw; } }
 @media (min-width: 768px) {
   .blockquote {
-    font-size: 2.0833333333vw; } }
+    font-size: 2.0138888889vw; } }
 
 @media (min-width: 1440px) {
   .headline--primary {
