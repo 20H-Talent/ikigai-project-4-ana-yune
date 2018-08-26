@@ -3,16 +3,20 @@
 // .img--frame
 // .img--avatar
 .img {
-    &--logo {
-      @include images("logo");
-    }
-  
-    &--frame {
-      @include images("frame");
-    }
-  
-    &--avatar {
-      @include images("avatar");
-    }
+  &--logo {
+    @include images("logo");
   }
-  
+
+  &--frame {
+    @include images("frame");
+  }
+
+  &--avatar {
+    @include images("avatar");
+  }
+}
+
+// .img--avatar:only-child {
+//   width: 200px !important;
+//   margin-top: 40px;
+// }

@@ -18,14 +18,15 @@
     border: 1px solid #d3d3d3;
     padding: 15px;
     height: auto;
+     margin-top:30px;
     max-width: 94%;
   } @else if($image == "logo") {
     max-width: 150px;
     margin-bottom: 20px;
     margin-left: 20px;
   } @else {
-    max-width: 46%;
-    margin-top: 10px;
+    max-width: 200px;
+    margin:30px auto auto;
     height: auto;
   }
 }
