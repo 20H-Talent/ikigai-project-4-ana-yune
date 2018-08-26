@@ -10,8 +10,12 @@
   font-size: $headl-primary;
 }
 .headline--secondary {
+  margin-top:30px;
  margin-bottom: 30px;
   font-weight: 500;
+}
+.headline--secondary:first-child{
+  margin-bottom: 0px;
 }
 a.link {
   font-weight: bold;
@@ -19,7 +23,7 @@ a.link {
   text-decoration: none;
 }
 .blockquote {
-  margin: 5px 20px 40px 20px;
+  margin: 5px 5px 40px 20px;
   border-left: 10px solid $color-bg;
   border-radius: 6px;
   padding-left: 15px;
