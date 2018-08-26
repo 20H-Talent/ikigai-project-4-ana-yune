@@ -19,10 +19,10 @@
   @include media(768px) {
     // width: 95%;
     // margin-left:15px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
-  padding: 20px;
+  padding: 15px;
 }
 .grid__row {
   @include flexy($wrap: wrap, $just: center);
@@ -32,7 +32,6 @@
 
   @include media(768px) {
     @include flexy($dir: row, $wrap: nowrap);
-    font-size: get-vw(20px);
     // for .grid__col width to 768px
     @for $i from 1 through 12 {
       .grid__col--#{$i} {

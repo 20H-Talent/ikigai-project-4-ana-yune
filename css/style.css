@@ -459,11 +459,11 @@ form {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 20px; }
+  padding: 15px; }
   @media (min-width: 768px) {
     .container {
-      padding-left: 40px;
-      padding-right: 40px; } }
+      padding-left: 50px;
+      padding-right: 50px; } }
 
 .grid__row {
   display: flex;
@@ -475,8 +475,7 @@ form {
     .grid__row {
       display: flex;
       flex-direction: row;
-      flex-wrap: nowrap;
-      font-size: 1.3888888889vw; }
+      flex-wrap: nowrap; }
       .grid__row .grid__col--1 {
         width: 8.3333333333%; }
       .grid__row .grid__col--2 {
@@ -569,10 +568,10 @@ ul.nav {
     border-radius: 4px;
     padding: 0.5em;
     display: block;
+    font-weight: 500;
     width: 100%;
     transition-property: color, background-color;
-    transition-timing-function: ease;
-    font-weight: bold; }
+    transition-timing-function: ease; }
     ul.nav .nav__item:hover {
       color: #fafafa;
       background-color: #58e1c1; }

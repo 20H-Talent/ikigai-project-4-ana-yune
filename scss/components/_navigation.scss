@@ -10,11 +10,10 @@ ul.nav {
     border-radius: 4px;
     padding: 0.5em;
     display: block;
-
+    font-weight: 500;
     width: 100%;
     transition-property: color, background-color;
     transition-timing-function: ease;
-    font-weight: bold;
     &:hover {
       color: $color-hover;
       background-color: $headl-primary-color;
@@ -36,8 +35,8 @@ ul.nav {
 nav {
   @include media(768px) {
     @include flexy($just: center, $dir: row, $align: center);
-    margin-top:30px;
-    margin-left:100px;
+    margin-top: 30px;
+    margin-left: 100px;
     width: 60%;
   }
 }
