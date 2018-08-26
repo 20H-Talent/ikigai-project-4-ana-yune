@@ -517,7 +517,7 @@ form {
 }
 @media (min-width: 768px) {
   .container {
-    padding: 40px;
+    padding: 10%;
   }
 }
 
@@ -526,7 +526,7 @@ form {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  padding: 10px;
+  padding: 10px 2px;
 }
 @media (min-width: 768px) {
   .grid__row {
@@ -586,8 +586,7 @@ form {
     width: 100%;
   }
   .grid__row div:nth-child(1n + 2) {
-    margin-left: 2%;
-    height: 100%;
+    margin-left: 1%;
   }
 }
 .grid__row div[class=grid__col--6] {
@@ -641,7 +640,6 @@ form {
 }
 .img--avatar {
   max-width: 50%;
-  padding: 20px auto;
   margin-top: 10px;
   height: auto;
 }
@@ -723,6 +721,11 @@ a.link {
   width: 90%;
   font-size: 1.3rem;
   color: #919191;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
