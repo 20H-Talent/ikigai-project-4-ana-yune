@@ -555,9 +555,9 @@ form {
   margin-left: 20px; }
 .img--frame {
   border: 1px solid #d3d3d3;
-  padding: 12px;
+  padding: 15px;
   height: auto;
-  max-width: 90%; }
+  max-width: 100%; }
 .img--avatar {
   max-width: 46%;
   margin-top: 10px;
