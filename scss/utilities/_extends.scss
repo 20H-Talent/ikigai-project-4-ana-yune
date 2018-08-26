@@ -1,10 +1,12 @@
 button[class*="btn--"] {
   @extend %style-buttons-cols;
   width: 95%;
-  margin: 5px 5px;
+  margin: 2%;
+  text-align: center;
 
 }
 div[class*="theme__colors"] {
   @extend %style-buttons-cols;
   margin: 3px 3px;
+  text-align: left;
 }
