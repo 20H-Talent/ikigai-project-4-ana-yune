@@ -55,9 +55,6 @@ a.link {
     font-size: get-vw(33px);
   }
   @include media(768px) {
-    font-size: get-vw(38px);
-  }
-  @include media(1024px) {
-    font-size: get-vw(90px);
+    font-size: get-vw(31px);
   }
 }

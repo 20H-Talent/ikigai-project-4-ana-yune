@@ -395,7 +395,7 @@ ul {
 
 p {
   color: #919191;
-  line-height: 1.4;
+  line-height: 1.6;
   margin-bottom: 20px;
   margin-top: 10px;
   text-align: start; }
@@ -648,9 +648,6 @@ a.link {
     font-size: 2.2916666667vw; } }
 @media (min-width: 768px) {
   .headline--primary {
-    font-size: 2.6388888889vw; } }
-@media (min-width: 1024px) {
-  .headline--primary {
-    font-size: 6.25vw; } }
+    font-size: 2.1527777778vw; } }
 
 /*# sourceMappingURL=style.css.map */
