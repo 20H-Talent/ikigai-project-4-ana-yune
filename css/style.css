@@ -407,7 +407,7 @@ p {
     font-size: 1.5277777778vw; } }
 @media (min-width: 1024px) {
   p {
-    font-size: 1.5972222222vw; } }
+    font-size: 1.4583333333vw; } }
 
 .btn--default {
   background-color: #51ddfc;
@@ -468,8 +468,8 @@ form {
   padding: 15px; }
   @media (min-width: 768px) {
     .container {
-      padding-left: 60px;
-      padding-right: 60px; } }
+      padding-left: 8%;
+      padding-right: 8%; } }
 
 .grid__row {
   display: flex;
@@ -556,10 +556,10 @@ form {
   border: 1px solid #d3d3d3;
   padding: 12px;
   height: auto;
-  max-width: 95%; }
+  max-width: 90%; }
 .img--avatar {
-  max-width: 50%;
-  margin-top: 10px;
+  max-width: 45%;
+  margin-top: 20px;
   height: auto; }
 
 ul.nav {
