@@ -400,6 +400,10 @@ p {
   margin-top: 10px;
   text-align: start; }
 
+@media (min-width: 1440px) {
+  p {
+    font-size: 1.3888888889vw; } }
+
 .btn--default {
   background-color: #51ddfc;
   color: white;
@@ -471,7 +475,8 @@ form {
     .grid__row {
       display: flex;
       flex-direction: row;
-      flex-wrap: nowrap; }
+      flex-wrap: nowrap;
+      font-size: 1.3888888889vw; }
       .grid__row .grid__col--1 {
         width: 8.3333333333%; }
       .grid__row .grid__col--2 {
@@ -626,5 +631,23 @@ a.link {
 .card {
   display: flex;
   flex-direction: column; }
+
+@media (min-width: 1440px) {
+  .headline--secondary {
+    font-size: 1.3888888889vw; } }
+
+@media (min-width: 1440px) {
+  .blockquote {
+    font-size: 2.2222222222vw; } }
+@media (min-width: 768px) {
+  .blockquote {
+    font-size: 2.0833333333vw; } }
+
+@media (min-width: 1440px) {
+  .headline--primary {
+    font-size: 2.2916666667vw; } }
+@media (min-width: 768px) {
+  .headline--primary {
+    font-size: 3.125vw; } }
 
 /*# sourceMappingURL=style.css.map */

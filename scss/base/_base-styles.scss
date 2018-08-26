@@ -22,4 +22,10 @@ p {
   margin-bottom: 20px;
   margin-top:10px;
   text-align: start;
+   
+  }
+p{
+  @include media(1440px){
+    font-size: get-vw(20px);
+  }
 }

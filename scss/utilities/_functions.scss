@@ -8,7 +8,3 @@
 //   font-size: get-vw(20px) vw;// asi se aplica la funcion al selector
 // }
 
-@function get-vw($target) {
-  $vw-context: (1440 * 0.01) * 1px;
-  @return ($target / $vw-context) * 1vw;
-}
