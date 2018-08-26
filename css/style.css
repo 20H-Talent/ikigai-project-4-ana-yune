@@ -559,8 +559,8 @@ form {
   height: auto;
   max-width: 90%; }
 .img--avatar {
-  max-width: 45%;
-  margin-top: 20px;
+  max-width: 46%;
+  margin-top: 10px;
   height: auto; }
 
 ul.nav {
@@ -643,7 +643,7 @@ a.link {
     font-size: 1.3888888889vw; } }
 @media (min-width: 768px) {
   .headline--secondary {
-    font-size: 1.7361111111vw; } }
+    font-size: 1.5277777778vw; } }
 
 @media (min-width: 1440px) {
   .blockquote {
