@@ -10,7 +10,7 @@
   font-size: $headl-primary;
 }
 .headline--secondary {
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 30px;
   font-weight: 500;
 }
@@ -47,7 +47,7 @@ a.link {
     font-size: get-vw(32px);
   }
   @include media(768px) {
-    font-size: get-vw(29px);
+    font-size: get-vw(25px);
   }
 }
 .headline--primary {

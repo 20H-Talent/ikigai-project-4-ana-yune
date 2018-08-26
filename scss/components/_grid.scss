@@ -25,9 +25,7 @@
 .grid__row {
   @include flexy($wrap: wrap, $just: center);
   width: 100%;
-
   padding: 10px;
-
   @include media(768px) {
     @include flexy($dir: row, $wrap: nowrap);
     // for .grid__col width to 768px
@@ -36,7 +34,6 @@
         width: 100%/12 * $i;
       }
     }
-
     // flexy for buttons of col--12.
     div[class="grid__col--12"] {
       @include flexy($just: space-between);

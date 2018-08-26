@@ -397,7 +397,8 @@ p {
   color: #80938f;
   line-height: 1.4;
   margin-top: 10px;
-  text-align: start; }
+  text-align: start;
+  margin-bottom: 20px; }
 
 @media (min-width: 1440px) {
   p {
@@ -407,7 +408,7 @@ p {
     font-size: 1.5277777778vw; } }
 @media (min-width: 1024px) {
   p {
-    font-size: 1.4583333333vw; } }
+    font-size: 1.25vw; } }
 
 .btn--default {
   background-color: #51ddfc;
@@ -610,7 +611,7 @@ ul.nav {
   font-size: 1.7rem; }
 
 .headline--secondary {
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 30px;
   font-weight: 500; }
 
@@ -646,7 +647,7 @@ a.link {
     font-size: 2.2222222222vw; } }
 @media (min-width: 768px) {
   .blockquote {
-    font-size: 2.0138888889vw; } }
+    font-size: 1.7361111111vw; } }
 
 @media (min-width: 1440px) {
   .headline--primary {

@@ -21,6 +21,7 @@ p {
   line-height: 1.4;
   margin-top:10px;
   text-align: start;
+  margin-bottom:20px;
    
   }
 p{
@@ -31,6 +32,6 @@ p{
     font-size: get-vw(22px);
   }
   @include media(1024px) {
-    font-size: get-vw(21px);
+    font-size: get-vw(18px);
   }
 }
