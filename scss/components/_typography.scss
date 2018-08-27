@@ -61,42 +61,42 @@ a.link {
 //   margin-bottom: 0;
 // }
 
-// .blockquote {
-//   margin: 5px 5px 40px 20px;
-//   border-left: 10px solid $color-bg;
-//   border-radius: 6px;
-//   padding-left: 15px;
-//   padding-top: 5px;
-//   font-style: italic;
-//   width: 90%;
-//   font-size: $bquote;
-//   color: $color-text;
-// }
+.blockquote {
+  margin: 5px 5px 40px 20px;
+  border-left: 10px solid $color-bg;
+  border-radius: 6px;
+  padding-left: 15px;
+  padding-top: 5px;
+  font-style: italic;
+  width: 90%;
+  font-size: $bquote;
+  color: $color-text;
+}
 .card {
   @include flexy($dir: column);
 }
 
-// .headline--secondary {
-//   @include media(1440px) {
-//     font-size: get-vw(20px);
-//   }
-//   @include media(768px) {
-//     font-size: get-vw(22px);
-//   }
-// }
-// .blockquote {
-//   @include media(1440px) {
-//     font-size: get-vw(32px);
-//   }
-//   @include media(768px) {
-//     font-size: get-vw(25px);
-//   }
-// }
-// .headline--primary {
-//   @include media(1440px) {
-//     font-size: get-vw(33px);
-//   }
-//   @include media(768px) {
-//     font-size: get-vw(31px);
-//   }
-// }
+.headline--secondary {
+  @include media(1440px) {
+    font-size: get-vw(20px);
+  }
+  @include media(768px) {
+    font-size: get-vw(22px);
+  }
+}
+.blockquote {
+  @include media(1440px) {
+    font-size: get-vw(32px);
+  }
+  @include media(768px) {
+    font-size: get-vw(25px);
+  }
+}
+.headline--primary {
+  @include media(1440px) {
+    font-size: get-vw(33px);
+  }
+  @include media(768px) {
+    font-size: get-vw(31px);
+  }
+}

@@ -26,4 +26,16 @@ form {
   border-bottom: 4px solid $color-bg;
   width: 90%;
   margin: 1rem;
+
+}
+.form__input{
+  @include media(1440px){
+    font-size: get-vw(20px);
+  }
+  @include media(768px) {
+    font-size: get-vw(22px);
+  }
+  @include media(1024px) {
+    font-size: get-vw(20px);
+  }
 }
