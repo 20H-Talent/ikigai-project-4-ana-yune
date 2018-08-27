@@ -1,4 +1,3 @@
-// Media Queries
 // Flexbox settings
 @mixin flexy($disp: flex, $dir: null, $wrap: null, $just: null, $align: null) {
   display: $disp;
@@ -8,25 +7,30 @@
   align-items: $align;
 }
 
+// Media Queries
 @mixin media($size) {
   @media (min-width: $size) {
     @content;
   }
 }
+
+//Images
 @mixin images($image) {
+  width: 100%;
+  margin: auto;
   @if $image == "frame" {
     border: 1px solid #d3d3d3;
     padding: 15px;
     height: auto;
-     margin-top:30px;
-    max-width: 94%;
+    margin: auto auto 10px auto;
+    max-width: 400px;
   } @else if($image == "logo") {
     max-width: 150px;
     margin-bottom: 20px;
     margin-left: 20px;
   } @else {
     max-width: 200px;
-    margin:30px auto auto;
+    margin: auto;
     height: auto;
   }
 }

@@ -8,5 +8,7 @@ button[class*="btn--"] {
 div[class*="theme__colors"] {
   @extend %style-buttons-cols;
   margin: 3px 3px;
-  text-align: left;
+  text-align: center;
+  color:	#696969;
+
 }

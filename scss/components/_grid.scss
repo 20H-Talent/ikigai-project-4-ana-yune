@@ -27,8 +27,11 @@
   @include flexy($wrap: wrap, $just: center);
   width: 100%;
   padding: 10px;
+  margin:10px;
+
   @include media(768px) {
     @include flexy($dir: row, $wrap: nowrap);
+  
     // for .grid__col width to 768px
     @for $i from 1 through 12 {
       .grid__col--#{$i} {

@@ -19,19 +19,18 @@ p {
   color: $color-text;
 // AQUI IRIA LA LLAMADA A LA FUNCION.
   line-height: 1.4;
-  margin-top:10px;
   text-align: start;
   margin-bottom:20px;
    
   }
-p{
-  @include media(1440px){
-    font-size: get-vw(20px);
-  }
-  @include media(768px) {
-    font-size: get-vw(22px);
-  }
-  @include media(1024px) {
-    font-size: get-vw(18px);
-  }
-}
+// p{
+//   @include media(1440px){
+//     font-size: get-vw(20px);
+//   }
+//   @include media(768px) {
+//     font-size: get-vw(22px);
+//   }
+//   @include media(1024px) {
+//     font-size: get-vw(18px);
+//   }
+// }

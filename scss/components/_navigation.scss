@@ -4,6 +4,7 @@
 ul.nav {
   @include flexy($just: center, $dir: column, $align: center);
   font-family: $font-stack-primary;
+  margin-bottom:40px;
   .nav__item {
     text-align: center;
     color: $color-text;

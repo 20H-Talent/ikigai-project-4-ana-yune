@@ -5,11 +5,12 @@ button[class*="btn--"] {
 
 div[class*="theme__colors"] {
   margin: 3px 3px;
-  text-align: left; }
+  text-align: center;
+  color: #696969; }
 
 button[class*="btn--"], div[class*="theme__colors"] {
   padding: 10px 10px;
-  border-radius: 5px; }
+  border-radius: 10px; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -397,19 +398,8 @@ ul {
 p {
   color: #80938f;
   line-height: 1.4;
-  margin-top: 10px;
   text-align: start;
   margin-bottom: 20px; }
-
-@media (min-width: 1440px) {
-  p {
-    font-size: 1.3888888889vw; } }
-@media (min-width: 768px) {
-  p {
-    font-size: 1.5277777778vw; } }
-@media (min-width: 1024px) {
-  p {
-    font-size: 1.25vw; } }
 
 .btn--default {
   background-color: #51ddfc;
@@ -478,7 +468,8 @@ form {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  padding: 10px; }
+  padding: 10px;
+  margin: 10px; }
   @media (min-width: 768px) {
     .grid__row {
       display: flex;
@@ -551,18 +542,24 @@ form {
   margin: auto !important; }
 
 .img--logo {
+  width: 100%;
+  margin: auto;
   max-width: 150px;
   margin-bottom: 20px;
   margin-left: 20px; }
 .img--frame {
+  width: 100%;
+  margin: auto;
   border: 1px solid #d3d3d3;
   padding: 15px;
   height: auto;
-  margin-top: 30px;
-  max-width: 94%; }
+  margin: auto auto 10px auto;
+  max-width: 400px; }
 .img--avatar {
+  width: 100%;
+  margin: auto;
   max-width: 200px;
-  margin: 30px auto auto;
+  margin: auto;
   height: auto; }
 
 ul.nav {
@@ -570,7 +567,8 @@ ul.nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Helvetica neue", sans-serif; }
+  font-family: "Helvetica neue", sans-serif;
+  margin-bottom: 40px; }
   ul.nav .nav__item {
     text-align: center;
     color: #80938f;
@@ -613,8 +611,6 @@ ul.nav {
   font-size: 1.7rem; }
 
 .headline--secondary {
-  margin-top: 40px;
-  margin-bottom: 30px;
   font-weight: 500; }
 
 .headline--secondary:first-child {
@@ -639,26 +635,5 @@ a.link {
 .card {
   display: flex;
   flex-direction: column; }
-
-@media (min-width: 1440px) {
-  .headline--secondary {
-    font-size: 1.3888888889vw; } }
-@media (min-width: 768px) {
-  .headline--secondary {
-    font-size: 1.5277777778vw; } }
-
-@media (min-width: 1440px) {
-  .blockquote {
-    font-size: 2.2222222222vw; } }
-@media (min-width: 768px) {
-  .blockquote {
-    font-size: 1.7361111111vw; } }
-
-@media (min-width: 1440px) {
-  .headline--primary {
-    font-size: 2.2916666667vw; } }
-@media (min-width: 768px) {
-  .headline--primary {
-    font-size: 2.1527777778vw; } }
 
 /*# sourceMappingURL=style.css.map */
