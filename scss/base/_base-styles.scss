@@ -17,12 +17,11 @@ ul {
 }
 p {
   color: $color-text;
-// AQUI IRIA LA LLAMADA A LA FUNCION.
   line-height: 1.4;
   text-align: start;
-  margin-bottom:20px;
-   
-  }
+  margin-top:20px;
+  margin-bottom: 20px;
+}
 // p{
 //   @include media(1440px){
 //     font-size: get-vw(20px);

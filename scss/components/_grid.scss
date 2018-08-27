@@ -27,11 +27,10 @@
   @include flexy($wrap: wrap, $just: center);
   width: 100%;
   padding: 10px;
-  margin:10px;
 
   @include media(768px) {
     @include flexy($dir: row, $wrap: nowrap);
-  
+
     // for .grid__col width to 768px
     @for $i from 1 through 12 {
       .grid__col--#{$i} {
@@ -53,8 +52,7 @@
     button[type="submit"] {
       width: 100%;
     }
-    // for grid-cols to separate between them
-    // to take the 2nd and the siblings.
+    // for grid-cols to separate between them// to take the 2nd and the siblings.
     div:nth-child(1n + 2) {
       margin-left: 2%;
     }
