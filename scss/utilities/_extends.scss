@@ -3,10 +3,14 @@ button[class*="btn--"] {
   width: 95%;
   margin: 2%;
   text-align: center;
-  
 }
 div[class*="theme__colors"] {
   @extend %style-buttons-cols;
   margin: 3px 3px;
   text-align: left;
+}
+div[class*="theme__colors"] {
+  @include media(768px) {
+    text-align: center;
+  }
 }

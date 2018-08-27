@@ -11,16 +11,15 @@
     background-color: $value;
     color: white;
     -webkit-transition: background-color 0.3s ease-out;
-      -moz-transition: background-color 0.3s ease-out;
-      -o-transition:  background-color 0.3s ease-out;
-      transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
     &:hover {
       color: $color-hover;
-     background-color:darken($value,30%);
-      
-    }
+      background-color: darken($value, 30%);
     }
   }
+}
 
 // div[class="grid__row"] div[class="grid__col--12"]{
 //     @include flexy($dir: row, $wrap: wrap, $just: space-between);

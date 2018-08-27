@@ -7,6 +7,10 @@ div[class*="theme__colors"] {
   margin: 3px 3px;
   text-align: left; }
 
+@media (min-width: 768px) {
+  div[class*="theme__colors"] {
+    text-align: center; } }
+
 button[class*="btn--"], div[class*="theme__colors"] {
   padding: 10px 10px;
   border-radius: 7px;
