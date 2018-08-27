@@ -491,8 +491,8 @@ form {
   padding: 15px; }
   @media (min-width: 768px) {
     .container {
-      padding-left: 9%;
-      padding-right: 9%; } }
+      width: 80%;
+      margin: 0 auto; } }
 
 .grid__row {
   display: flex;
@@ -573,13 +573,12 @@ form {
 
 .img--logo {
   width: 100%;
-  margin: auto;
+  display: block;
   max-width: 150px;
-  margin-bottom: 20px;
-  margin-left: 20px; }
+  margin: 0 auto;
+  margin-bottom: 20px; }
 .img--frame {
   width: 100%;
-  margin: auto;
   border: 1px solid #d3d3d3;
   padding: 15px;
   height: auto;
@@ -587,7 +586,6 @@ form {
   max-width: 400px; }
 .img--avatar {
   width: 100%;
-  margin: auto;
   max-width: 200px;
   margin: auto;
   height: auto; }
@@ -653,17 +651,6 @@ a.link {
   font-weight: bold;
   color: #51ddfc;
   text-decoration: none; }
-
-.blockquote {
-  margin: 5px 5px 40px 20px;
-  border-left: 10px solid #58e1c1;
-  border-radius: 6px;
-  padding-left: 15px;
-  padding-top: 5px;
-  font-style: italic;
-  width: 90%;
-  font-size: 1.3rem;
-  color: #80938f; }
 
 .card {
   display: flex;

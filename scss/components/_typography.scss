@@ -13,7 +13,7 @@
   font-weight: 500;
 }
 .headline--secondary:first-child {
-  margin-top:50px;
+  margin-top: 50px;
 
   margin-bottom: 0px;
 }
@@ -24,14 +24,14 @@ a.link {
 }
 // cambiar de sitio y ponerlo donde va cada cosa la querie de abajo
 
-// @include media(768px){
+// @include media(768px) {
 //   div[class="grid__col--3"] a:first-child {
 //     @include flexy();
 //     width: 70%;
 //     height: 95%;
 //     // border: 1px solid red;
 //   }
-//   div[class="grid__row"]{
+//   div[class="grid__row"] {
 //     & div[class="grid__col--3"]:first-of-type {
 //       // border: 1px solid pink;
 //       @include flexy($disp: inline-flex, $just: center);
@@ -52,28 +52,26 @@ a.link {
 //       }
 //     }
 //   }
-//   .img--logo {
-//     // border: 1px solid red;
-//     height: 100%;
-//     margin-left: 0;
-//     margin-top: 0;
-//     margin-bottom: 0;
-
-//   }
-
+// }
+// .img--logo {
+//   // border: 1px solid red;
+//   height: 100%;
+//   margin-left: 0;
+//   margin-top: 0;
+//   margin-bottom: 0;
 // }
 
-.blockquote {
-  margin: 5px 5px 40px 20px;
-  border-left: 10px solid $color-bg;
-  border-radius: 6px;
-  padding-left: 15px;
-  padding-top: 5px;
-  font-style: italic;
-  width: 90%;
-  font-size: $bquote;
-  color: $color-text;
-}
+// .blockquote {
+//   margin: 5px 5px 40px 20px;
+//   border-left: 10px solid $color-bg;
+//   border-radius: 6px;
+//   padding-left: 15px;
+//   padding-top: 5px;
+//   font-style: italic;
+//   width: 90%;
+//   font-size: $bquote;
+//   color: $color-text;
+// }
 .card {
   @include flexy($dir: column);
 }

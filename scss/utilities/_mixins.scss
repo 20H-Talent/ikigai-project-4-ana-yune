@@ -17,7 +17,6 @@
 //Images
 @mixin images($image) {
   width: 100%;
-  margin: auto;
   @if $image == "frame" {
     border: 1px solid #d3d3d3;
     padding: 15px;
@@ -25,9 +24,10 @@
     margin: auto auto 10px auto;
     max-width: 400px;
   } @else if($image == "logo") {
+    display:block;
     max-width: 150px;
+    margin:0 auto;
     margin-bottom: 20px;
-    margin-left: 20px;
   } @else {
     max-width: 200px;
     margin: auto;

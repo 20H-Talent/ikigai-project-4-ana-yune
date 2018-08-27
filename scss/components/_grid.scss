@@ -17,9 +17,11 @@
 .container {
   @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);
   @include media(768px) {
+    width:80%;
+    margin:0 auto;
     //  width: calc(100% - #{$padding});
-    padding-left: 9%;
-    padding-right: 9%;
+    // padding-left: 9%;
+    // padding-right: 9%;
   }
   padding: 15px;
 }

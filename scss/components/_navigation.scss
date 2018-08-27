@@ -4,7 +4,7 @@
 ul.nav {
   @include flexy($just: center, $dir: column, $align: center);
   font-family: $font-stack-primary;
-  margin-bottom:40px;
+  margin-bottom: 40px;
   .nav__item {
     text-align: center;
     color: $color-text;
@@ -13,12 +13,10 @@ ul.nav {
     display: block;
     font-weight: 500;
     width: 100%;
-    
-  
 
     -webkit-transition: background-color 0.3s ease-out, color 0.3s ease-out;
     -moz-transition: background-color 0.3s ease-out, color 0.3s ease-out;
-    -o-transition:  background-color 0.3s ease-out, color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out, color 0.3s ease-out;
     transition: background-color 0.3s ease-out, color 0.3s ease-out;
     &:hover {
       color: $color-hover;
