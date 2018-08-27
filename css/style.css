@@ -675,7 +675,9 @@ ul.nav {
   font-size: 1.7rem; }
 
 .headline--secondary {
-  font-weight: 500; }
+  font-weight: 500;
+  margin-bottom: 40px;
+  margin-top: 40px; }
 
 .headline--secondary:first-child {
   margin-top: 50px;
