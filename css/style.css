@@ -404,7 +404,8 @@ p {
   line-height: 1.4;
   text-align: start;
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  width: 90%; }
 
 @media (min-width: 1440px) {
   p {
@@ -604,13 +605,13 @@ form {
 .img--frame {
   width: 100%;
   border: 1px solid #d3d3d3;
-  padding: 15px;
+  padding: 10px;
   height: auto;
   margin: auto auto 10px auto;
   max-width: 400px; }
 .img--avatar {
   width: 100%;
-  max-width: 200px;
+  max-width: 180px;
   margin: auto;
   height: auto; }
 
@@ -715,7 +716,7 @@ a.link {
     font-size: 2.2222222222vw; } }
 @media (min-width: 768px) {
   .blockquote {
-    font-size: 1.7361111111vw; } }
+    font-size: 1.875vw; } }
 
 @media (min-width: 1440px) {
   .headline--primary {

@@ -21,6 +21,7 @@ p {
   text-align: start;
   margin-top:20px;
   margin-bottom: 20px;
+  width:90%;
 }
 p{
   @include media(1440px){
