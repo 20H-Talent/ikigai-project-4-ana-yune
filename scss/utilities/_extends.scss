@@ -3,12 +3,12 @@ button[class*="btn--"] {
   width: 95%;
   margin: 2%;
   text-align: center;
-
+  transition-property: background-color;
+  transition-duration: 300ms;
+  transition-timing-function: ease
 }
 div[class*="theme__colors"] {
   @extend %style-buttons-cols;
   margin: 3px 3px;
-  text-align: center;
-  color:	#696969;
-
+  text-align: left;
 }

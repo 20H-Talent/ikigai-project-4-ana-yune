@@ -1,12 +1,14 @@
 button[class*="btn--"] {
   width: 95%;
   margin: 2%;
-  text-align: center; }
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: 300ms;
+  transition-timing-function: ease; }
 
 div[class*="theme__colors"] {
   margin: 3px 3px;
-  text-align: center;
-  color: #696969; }
+  text-align: left; }
 
 button[class*="btn--"], div[class*="theme__colors"] {
   padding: 10px 10px;
@@ -405,28 +407,58 @@ p {
 
 .btn--default {
   background-color: #51ddfc;
-  color: white;
-  text-transform: uppercase; }
+  color: white; }
+  .btn--default:hover {
+    color: #fafafa;
+    background-color: blue;
+    -webkit-transition: #51ddfc 2s ease-out;
+    -moz-transition: #51ddfc 2s ease-out;
+    -o-transition: #51ddfc 2s ease-out;
+    transition: #51ddfc 2s ease-out; }
 
 .btn--success {
   background-color: #63cc82;
-  color: white;
-  text-transform: uppercase; }
+  color: white; }
+  .btn--success:hover {
+    color: #fafafa;
+    background-color: blue;
+    -webkit-transition: #63cc82 2s ease-out;
+    -moz-transition: #63cc82 2s ease-out;
+    -o-transition: #63cc82 2s ease-out;
+    transition: #63cc82 2s ease-out; }
 
 .btn--error {
   background-color: #e4757a;
-  color: white;
-  text-transform: uppercase; }
+  color: white; }
+  .btn--error:hover {
+    color: #fafafa;
+    background-color: blue;
+    -webkit-transition: #e4757a 2s ease-out;
+    -moz-transition: #e4757a 2s ease-out;
+    -o-transition: #e4757a 2s ease-out;
+    transition: #e4757a 2s ease-out; }
 
 .btn--warning {
   background-color: #fd7856;
-  color: white;
-  text-transform: uppercase; }
+  color: white; }
+  .btn--warning:hover {
+    color: #fafafa;
+    background-color: blue;
+    -webkit-transition: #fd7856 2s ease-out;
+    -moz-transition: #fd7856 2s ease-out;
+    -o-transition: #fd7856 2s ease-out;
+    transition: #fd7856 2s ease-out; }
 
 .btn--info {
   background-color: #927bc1;
-  color: white;
-  text-transform: uppercase; }
+  color: white; }
+  .btn--info:hover {
+    color: #fafafa;
+    background-color: blue;
+    -webkit-transition: #927bc1 2s ease-out;
+    -moz-transition: #927bc1 2s ease-out;
+    -o-transition: #927bc1 2s ease-out;
+    transition: #927bc1 2s ease-out; }
 
 form {
   display: flex;

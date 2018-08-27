@@ -10,9 +10,17 @@
   .btn--#{$button} {
     background-color: $value;
     color: white;
-    text-transform: uppercase;    
+    &:hover {
+      color: $color-hover;
+     background-color: blue;
+      -webkit-transition:$value 2s ease-out;
+      -moz-transition:$value 2s ease-out;
+      -o-transition: $value 2s ease-out;
+      transition:$value 2s ease-out;
+    }
+    }
   }
-}
+
 // div[class="grid__row"] div[class="grid__col--12"]{
 //     @include flexy($dir: row, $wrap: wrap, $just: space-between);
 
