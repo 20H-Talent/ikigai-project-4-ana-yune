@@ -1,10 +1,7 @@
 button[class*="btn--"] {
   width: 95%;
   margin: 2%;
-  text-align: center;
-  transition-property: background-color;
-  transition-duration: 300ms;
-  transition-timing-function: ease; }
+  text-align: center; }
 
 div[class*="theme__colors"] {
   margin: 3px 3px;
@@ -407,58 +404,58 @@ p {
 
 .btn--default {
   background-color: #51ddfc;
-  color: white; }
+  color: white;
+  -webkit-transition: background-color 0.3s ease-out;
+  -moz-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out; }
   .btn--default:hover {
     color: #fafafa;
-    background-color: blue;
-    -webkit-transition: #51ddfc 2s ease-out;
-    -moz-transition: #51ddfc 2s ease-out;
-    -o-transition: #51ddfc 2s ease-out;
-    transition: #51ddfc 2s ease-out; }
+    background-color: #0391b1; }
 
 .btn--success {
   background-color: #63cc82;
-  color: white; }
+  color: white;
+  -webkit-transition: background-color 0.3s ease-out;
+  -moz-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out; }
   .btn--success:hover {
     color: #fafafa;
-    background-color: blue;
-    -webkit-transition: #63cc82 2s ease-out;
-    -moz-transition: #63cc82 2s ease-out;
-    -o-transition: #63cc82 2s ease-out;
-    transition: #63cc82 2s ease-out; }
+    background-color: #25713b; }
 
 .btn--error {
   background-color: #e4757a;
-  color: white; }
+  color: white;
+  -webkit-transition: background-color 0.3s ease-out;
+  -moz-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out; }
   .btn--error:hover {
     color: #fafafa;
-    background-color: blue;
-    -webkit-transition: #e4757a 2s ease-out;
-    -moz-transition: #e4757a 2s ease-out;
-    -o-transition: #e4757a 2s ease-out;
-    transition: #e4757a 2s ease-out; }
+    background-color: #a11f25; }
 
 .btn--warning {
   background-color: #fd7856;
-  color: white; }
+  color: white;
+  -webkit-transition: background-color 0.3s ease-out;
+  -moz-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out; }
   .btn--warning:hover {
     color: #fafafa;
-    background-color: blue;
-    -webkit-transition: #fd7856 2s ease-out;
-    -moz-transition: #fd7856 2s ease-out;
-    -o-transition: #fd7856 2s ease-out;
-    transition: #fd7856 2s ease-out; }
+    background-color: #b82702; }
 
 .btn--info {
   background-color: #927bc1;
-  color: white; }
+  color: white;
+  -webkit-transition: background-color 0.3s ease-out;
+  -moz-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out; }
   .btn--info:hover {
     color: #fafafa;
-    background-color: blue;
-    -webkit-transition: #927bc1 2s ease-out;
-    -moz-transition: #927bc1 2s ease-out;
-    -o-transition: #927bc1 2s ease-out;
-    transition: #927bc1 2s ease-out; }
+    background-color: #47346f; }
 
 form {
   display: flex;
@@ -610,8 +607,10 @@ ul.nav {
     display: block;
     font-weight: 500;
     width: 100%;
-    transition-property: color, background-color;
-    transition-timing-function: ease; }
+    -webkit-transition: background-color 0.3s ease-out, color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out, color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out, color 0.3s ease-out;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out; }
     ul.nav .nav__item:hover {
       color: #fafafa;
       background-color: #58e1c1; }
