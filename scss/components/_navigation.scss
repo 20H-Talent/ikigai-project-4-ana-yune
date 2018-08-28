@@ -37,9 +37,20 @@ ul.nav {
 }
 nav {
   @include media(768px) {
-    @include flexy($just: center, $dir: row, $align: center);
+    @include flexy($just: space-around, $dir: row, $align: center);
     margin-top: 20px;
     margin-left: 100px;
     width: 70%;
+  }
+}
+.nav__item{
+  @include media(1440px){
+    font-size: get-vw(20px);
+  }
+  @include media(768px) {
+    font-size: get-vw(20px);
+  }
+  @include media(1024px) {
+    font-size: get-vw(18px);
   }
 }

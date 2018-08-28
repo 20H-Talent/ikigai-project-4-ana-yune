@@ -21,15 +21,16 @@ p {
   text-align: start;
   margin-top:20px;
   margin-bottom: 20px;
+  width:90%;
 }
-// p{
-//   @include media(1440px){
-//     font-size: get-vw(20px);
-//   }
-//   @include media(768px) {
-//     font-size: get-vw(22px);
-//   }
-//   @include media(1024px) {
-//     font-size: get-vw(18px);
-//   }
-// }
+p{
+  @include media(1440px){
+    font-size: get-vw(20px);
+  }
+  @include media(768px) {
+    font-size: get-vw(22px);
+  }
+  @include media(1024px) {
+    font-size: get-vw(18px);
+  }
+}
