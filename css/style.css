@@ -2,6 +2,7 @@ button[class*=btn--] {
   width: 95%;
   margin: 2%;
   text-align: center;
+  text-transform: uppercase;
 }
 
 div[class*=theme__colors] {
@@ -9,23 +10,32 @@ div[class*=theme__colors] {
   text-align: left;
 }
 
-<<<<<<< HEAD
 @media (min-width: 768px) {
-  div[class*="theme__colors"] {
-    text-align: center; } }
-
-button[class*="btn--"], div[class*="theme__colors"] {
-=======
-button[class*=btn--], div[class*=theme__colors] {
->>>>>>> 132ec31214f70bcf66966bd763f228d1e7a9bfff
-  padding: 10px 10px;
-<<<<<<< Updated upstream
-  border-radius: 7px;
-  border: none; }
-=======
-  border-radius: 5px;
+  div[class*=theme__colors] {
+    text-align: center;
+  }
 }
->>>>>>> Stashed changes
+
+button[class*=btn--], div[class*=theme__colors] {
+  padding: 10px 10px;
+  border-radius: 7px;
+  border: none;
+}
+@media (min-width: 1440px) {
+  button[class*=btn--], div[class*=theme__colors] {
+    font-size: 1.3888888889vw;
+  }
+}
+@media (min-width: 768px) {
+  button[class*=btn--], div[class*=theme__colors] {
+    font-size: 1.5277777778vw;
+  }
+}
+@media (min-width: 1024px) {
+  button[class*=btn--], div[class*=theme__colors] {
+    font-size: 1.25vw;
+  }
+}
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -457,9 +467,9 @@ p {
   color: #80938f;
   line-height: 1.4;
   text-align: start;
-<<<<<<< Updated upstream
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .btn--default {
   background-color: #51ddfc;
@@ -467,100 +477,64 @@ p {
   -webkit-transition: background-color 0.3s ease-out;
   -moz-transition: background-color 0.3s ease-out;
   -o-transition: background-color 0.3s ease-out;
-  transition: background-color 0.3s ease-out; }
-  .btn--default:hover {
-    color: #fafafa;
-    background-color: #0391b1; }
-=======
-  margin-bottom: 20px;
+  transition: background-color 0.3s ease-out;
 }
-
-@media (min-width: 1440px) {
-  p {
-    font-size: 1.3888888889vw;
-  }
+.btn--default:hover {
+  color: #fafafa;
+  background-color: #0391b1;
 }
-@media (min-width: 768px) {
-  p {
-    font-size: 1.5277777778vw;
-  }
-}
-@media (min-width: 1024px) {
-  p {
-    font-size: 1.25vw;
-  }
-}
-
-.btn--default {
-  background-color: #51ddfc;
-  color: white;
-  text-transform: uppercase;
-}
->>>>>>> Stashed changes
 
 .btn--success {
   background-color: #63cc82;
   color: white;
-<<<<<<< Updated upstream
   -webkit-transition: background-color 0.3s ease-out;
   -moz-transition: background-color 0.3s ease-out;
   -o-transition: background-color 0.3s ease-out;
-  transition: background-color 0.3s ease-out; }
-  .btn--success:hover {
-    color: #fafafa;
-    background-color: #25713b; }
-=======
-  text-transform: uppercase;
+  transition: background-color 0.3s ease-out;
 }
->>>>>>> Stashed changes
+.btn--success:hover {
+  color: #fafafa;
+  background-color: #25713b;
+}
 
 .btn--error {
   background-color: #e4757a;
   color: white;
-<<<<<<< Updated upstream
   -webkit-transition: background-color 0.3s ease-out;
   -moz-transition: background-color 0.3s ease-out;
   -o-transition: background-color 0.3s ease-out;
-  transition: background-color 0.3s ease-out; }
-  .btn--error:hover {
-    color: #fafafa;
-    background-color: #a11f25; }
-=======
-  text-transform: uppercase;
+  transition: background-color 0.3s ease-out;
 }
->>>>>>> Stashed changes
+.btn--error:hover {
+  color: #fafafa;
+  background-color: #a11f25;
+}
 
 .btn--warning {
   background-color: #fd7856;
   color: white;
-<<<<<<< Updated upstream
   -webkit-transition: background-color 0.3s ease-out;
   -moz-transition: background-color 0.3s ease-out;
   -o-transition: background-color 0.3s ease-out;
-  transition: background-color 0.3s ease-out; }
-  .btn--warning:hover {
-    color: #fafafa;
-    background-color: #b82702; }
-=======
-  text-transform: uppercase;
+  transition: background-color 0.3s ease-out;
 }
->>>>>>> Stashed changes
+.btn--warning:hover {
+  color: #fafafa;
+  background-color: #b82702;
+}
 
 .btn--info {
   background-color: #927bc1;
   color: white;
-<<<<<<< Updated upstream
   -webkit-transition: background-color 0.3s ease-out;
   -moz-transition: background-color 0.3s ease-out;
   -o-transition: background-color 0.3s ease-out;
-  transition: background-color 0.3s ease-out; }
-  .btn--info:hover {
-    color: #fafafa;
-    background-color: #47346f; }
-=======
-  text-transform: uppercase;
+  transition: background-color 0.3s ease-out;
 }
->>>>>>> Stashed changes
+.btn--info:hover {
+  color: #fafafa;
+  background-color: #47346f;
+}
 
 form {
   display: flex;
@@ -599,22 +573,31 @@ form {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-<<<<<<< Updated upstream
-  padding: 15px; }
-  @media (min-width: 768px) {
-    .container {
-      width: 80%;
-      margin: 0 auto; } }
-=======
   padding: 15px;
 }
 @media (min-width: 768px) {
   .container {
-    padding-left: 9%;
-    padding-right: 9%;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .container div[class=grid__row]:nth-of-type(4) {
+    display: flex;
+    justify-content: space-around;
+  }
+  .container div[class=grid__row]:nth-of-type(4) div:first-child {
+    width: 35%;
+  }
+  .container div[class=grid__row]:nth-of-type(4) div:nth-of-type(2) {
+    width: 30%;
+    margin: 0;
+  }
+  .container div[class=grid__row]:nth-of-type(4) div:nth-of-type(2) img {
+    width: 64%;
+  }
+  .container div[class=grid__row]:nth-of-type(1n+6) {
+    padding: 10px 2px;
   }
 }
->>>>>>> Stashed changes
 
 .grid__row {
   display: flex;
@@ -726,38 +709,23 @@ form {
   width: 100%;
   display: block;
   max-width: 150px;
-<<<<<<< Updated upstream
   margin: 0 auto;
-  margin-bottom: 20px; }
-=======
   margin-bottom: 20px;
-  margin-left: 20px;
 }
->>>>>>> Stashed changes
 .img--frame {
   width: 100%;
   border: 1px solid #d3d3d3;
   padding: 15px;
   height: auto;
-<<<<<<< Updated upstream
   margin: auto auto 10px auto;
-  max-width: 400px; }
-=======
-  margin-top: 30px;
-  max-width: 94%;
+  max-width: 400px;
 }
->>>>>>> Stashed changes
 .img--avatar {
   width: 100%;
   max-width: 200px;
-<<<<<<< Updated upstream
   margin: auto;
-  height: auto; }
-=======
-  margin: 30px auto auto;
   height: auto;
 }
->>>>>>> Stashed changes
 
 ul.nav {
   display: flex;
@@ -765,28 +733,7 @@ ul.nav {
   justify-content: center;
   align-items: center;
   font-family: "Helvetica neue", sans-serif;
-<<<<<<< Updated upstream
-  margin-bottom: 40px; }
-  ul.nav .nav__item {
-    text-align: center;
-    color: #80938f;
-    border-radius: 4px;
-    padding: 0.5em;
-    display: block;
-    font-weight: 500;
-    width: 100%;
-    -webkit-transition: background-color 0.3s ease-out, color 0.3s ease-out;
-    -moz-transition: background-color 0.3s ease-out, color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out, color 0.3s ease-out;
-    transition: background-color 0.3s ease-out, color 0.3s ease-out; }
-    ul.nav .nav__item:hover {
-      color: #fafafa;
-      background-color: #58e1c1; }
-    ul.nav .nav__item a {
-      color: inherit;
-      text-decoration: inherit;
-      background: none; }
-=======
+  margin-bottom: 40px;
 }
 ul.nav .nav__item {
   text-align: center;
@@ -796,8 +743,10 @@ ul.nav .nav__item {
   display: block;
   font-weight: 500;
   width: 100%;
-  transition-property: color, background-color;
-  transition-timing-function: ease;
+  -webkit-transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  -moz-transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
 }
 ul.nav .nav__item:hover {
   color: #fafafa;
@@ -808,7 +757,6 @@ ul.nav .nav__item a {
   text-decoration: inherit;
   background: none;
 }
->>>>>>> Stashed changes
 
 @media (min-width: 768px) {
   ul.nav {
@@ -839,22 +787,13 @@ ul.nav .nav__item a {
 }
 
 .headline--secondary {
-<<<<<<< Updated upstream
-  font-weight: 500; }
-
-.headline--secondary:first-child {
-  margin-top: 50px;
-  margin-bottom: 0px; }
-=======
-  margin-top: 40px;
-  margin-bottom: 30px;
   font-weight: 500;
 }
 
 .headline--secondary:first-child {
+  margin-top: 50px;
   margin-bottom: 0px;
 }
->>>>>>> Stashed changes
 
 a.link {
   font-weight: bold;
@@ -862,60 +801,9 @@ a.link {
   text-decoration: none;
 }
 
-<<<<<<< Updated upstream
-=======
-.blockquote {
-  margin: 5px 5px 40px 20px;
-  border-left: 10px solid #58e1c1;
-  border-radius: 6px;
-  padding-left: 15px;
-  padding-top: 5px;
-  font-style: italic;
-  width: 90%;
-  font-size: 1.3rem;
-  color: #80938f;
-}
-
->>>>>>> Stashed changes
 .card {
   display: flex;
   flex-direction: column;
 }
 
-<<<<<<< Updated upstream
-=======
-@media (min-width: 1440px) {
-  .headline--secondary {
-    font-size: 1.3888888889vw;
-  }
-}
-@media (min-width: 768px) {
-  .headline--secondary {
-    font-size: 1.5277777778vw;
-  }
-}
-
-@media (min-width: 1440px) {
-  .blockquote {
-    font-size: 2.2222222222vw;
-  }
-}
-@media (min-width: 768px) {
-  .blockquote {
-    font-size: 1.7361111111vw;
-  }
-}
-
-@media (min-width: 1440px) {
-  .headline--primary {
-    font-size: 2.2916666667vw;
-  }
-}
-@media (min-width: 768px) {
-  .headline--primary {
-    font-size: 2.1527777778vw;
-  }
-}
-
->>>>>>> Stashed changes
 /*# sourceMappingURL=style.css.map */
