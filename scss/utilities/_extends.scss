@@ -3,6 +3,7 @@ button[class*="btn--"] {
   width: 95%;
   margin: 2%;
   text-align: center;
+  text-transform: uppercase;
 }
 div[class*="theme__colors"] {
   @extend %style-buttons-cols;
