@@ -18,7 +18,6 @@
   @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);
   @include media(768px) {
     width: 90%;
-    margin: 0 auto;
     // for grid of images, 4th of container
     & div[class="grid__row"]:nth-of-type(4) {
       @include flexy($just: space-around);
@@ -38,7 +37,8 @@
       padding: 10px 2px;
     }
   }
-  padding: 15px;
+  width: 95%;
+  margin: 5% auto;
 }
 .grid__row {
   @include flexy($wrap: wrap, $just: center);
