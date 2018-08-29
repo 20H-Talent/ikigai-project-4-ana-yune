@@ -1,22 +1,29 @@
-// Links 
-// Images 
-// Headlines 
-// Nav items 
+// Links
+// Images
+// Headlines
+// Nav items
 // Components
 %style-buttons-cols {
-    padding: 10px 10px;
-    border-radius: 7px;
-    border:none;
-    // text-align: center;
-    // width:100%;
-    @include media(1440px){
-      font-size: get-vw(20px);
-    }
-    @include media(768px) {
-      font-size: get-vw(22px);
-    }
-    @include media(1024px) {
-      font-size: get-vw(18px);
-    }
-  
+  width: 100%;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 7px;
+  border: none;
+  display: block;
+  font-weight: 500;
+  @include media(1440px) {
+    font-size: get-vw(20px);
+  }
+  @include media(768px) {
+    font-size: get-vw(22px);
+  }
+  @include media(1024px) {
+    font-size: get-vw(18px);
+  }
+}
+%transition{
+  -webkit-transition: background-color 0.3s ease-out, color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out, color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out, color 0.3s ease-out;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
 }

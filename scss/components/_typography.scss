@@ -11,7 +11,7 @@
 }
 .headline--secondary {
   font-weight: 500;
-  margin-bottom:40px;
+  margin-bottom: 40px;
   margin-top: 40px;
 }
 .headline--secondary:first-child {
@@ -23,44 +23,6 @@ a.link {
   color: $color-bg-light;
   text-decoration: none;
 }
-// cambiar de sitio y ponerlo donde va cada cosa la querie de abajo
-
-// @include media(768px) {
-//   div[class="grid__col--3"] a:first-child {
-//     @include flexy();
-//     width: 70%;
-//     height: 95%;
-//     // border: 1px solid red;
-//   }
-//   div[class="grid__row"] {
-//     & div[class="grid__col--3"]:first-of-type {
-//       // border: 1px solid pink;
-//       @include flexy($disp: inline-flex, $just: center);
-//     }
-//     & div[class="grid__col--9"] {
-//       // border: 1px solid black;
-//       @include flexy($disp: inline-flex);
-//       & nav {
-//         justify-content: space-around;
-//         margin-top: 0;
-//         margin-left: 0;
-//         width: 100%;
-//         & ul {
-//           width: 62%;
-//           font-size: 1.5277777778vw;
-//           // quitar el justify-content center y el align items.
-//         }
-//       }
-//     }
-//   }
-// }
-// .img--logo {
-//   // border: 1px solid red;
-//   height: 100%;
-//   margin-left: 0;
-//   margin-top: 0;
-//   margin-bottom: 0;
-// }
 
 .blockquote {
   margin: 5px 5px 40px 20px;

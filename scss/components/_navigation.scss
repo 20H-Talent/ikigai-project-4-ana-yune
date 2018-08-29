@@ -6,17 +6,9 @@ ul.nav {
   font-family: $font-stack-primary;
   margin-bottom: 40px;
   .nav__item {
-    text-align: center;
+    @extend %style-buttons-cols;
+    @extend %transition;
     color: $color-text;
-    border-radius: 4px;
-    padding: 0.5em;
-    display: block;
-    font-weight: 500;
-    width: 100%;
-    -webkit-transition: background-color 0.3s ease-out, color 0.3s ease-out;
-    -moz-transition: background-color 0.3s ease-out, color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out, color 0.3s ease-out;
-    transition: background-color 0.3s ease-out, color 0.3s ease-out;
     &:hover {
       color: $color-hover;
       background-color: $headl-primary-color;

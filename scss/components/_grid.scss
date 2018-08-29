@@ -17,39 +17,28 @@
 .container {
   @include flexy($wrap: wrap, $just: center, $dir: column, $align: center);
   @include media(768px) {
-    width:90%;
-    margin:0 auto;
-    //  width: calc(100% - #{$padding});
-    // padding-left: 9%;
-    // padding-right: 9%;
-
-      // for grid of images, 4th of container
+    width: 90%;
+    margin: 0 auto;
+    // for grid of images, 4th of container
     & div[class="grid__row"]:nth-of-type(4) {
-      // border: 1px solid green;
       @include flexy($just: space-around);
-      & div:first-child{
+      & div:first-child {
         width: 35%;
-        // border: 1px solid pink;
       }
-      & div:nth-of-type(2){
+      & div:nth-of-type(2) {
         width: 30%;
         margin: 0;
-        // border: 1px solid red;
         & img {
           width: 64%;
-        }    
+        }
       }
-      
     }
     // to put a little outside the grids
-    & div[class="grid__row"]:nth-of-type(1n+6) {
-      // border: 1px solid red;
+    & div[class="grid__row"]:nth-of-type(1n + 6) {
       padding: 10px 2px;
     }
   }
   padding: 15px;
-
-
 }
 .grid__row {
   @include flexy($wrap: wrap, $just: center);
@@ -58,7 +47,6 @@
 
   @include media(768px) {
     @include flexy($dir: row, $wrap: nowrap);
-
 
     // for .grid__col width to 768px
     @for $i from 1 through 12 {
