@@ -8,6 +8,8 @@
   color: $headl-primary-color;
   padding: 10px;
   font-size: $headl-primary;
+  width: 96%;
+  margin-left: 9px;
 }
 .headline--secondary {
   font-weight: 500;
@@ -37,9 +39,19 @@ a.link {
 }
 .card {
   @include flexy($dir: column);
+  // p:only-child {
+  //   // border: 1px solid blue;
+  //   width: 80%;
+  //   margin: auto;
+  // }
 }
 
 .headline--secondary {
+  font-size: get-vw(60px);
+  @include media(656px) {
+    font-size: get-vw(35px);
+  }
+
   @include media(1440px) {
     font-size: get-vw(20px);
   }
@@ -56,6 +68,11 @@ a.link {
   }
 }
 .headline--primary {
+  font-size: get-vw(90px);
+  @include media(656px) {
+    font-size: get-vw(95px);
+  }
+
   @include media(1440px) {
     font-size: get-vw(33px);
   }

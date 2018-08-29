@@ -6,8 +6,9 @@ form {
   @include flexy($dir: column, $align: center);
   width: 100%;
   @include media(768px) {
-    width: 100%;
+    width: 92%;
     height: 100%;
+    margin: auto;
     .form__input {
       width: 90%;
     }

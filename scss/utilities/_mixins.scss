@@ -29,8 +29,9 @@
     margin:0 auto;
     margin-bottom: 20px;
   } @else {
+    width: 57%;
     max-width: 180px;
-    margin: auto;
+    margin: 8% auto;
     height: auto;
   }
 }
