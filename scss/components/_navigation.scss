@@ -2,47 +2,64 @@
 // .nav__item
 
 ul.nav {
-  @include flexy($just: center, $dir: column, $align: center);
-  font-family: $font-stack-primary;
-  margin-bottom: 40px;
-  .nav__item {
-    @extend %style-buttons-cols;
-    @extend %transition;
-    color: $color-text;
-    &:hover {
-      color: $color-hover;
-      background-color: $headl-primary-color;
+    @include flexy($just: center, $dir: column, $align: center);
+
+    font-family: $font-stack-primary;
+    margin-bottom: 40px;
+
+    .nav__item {
+        @extend %style-buttons-cols;
+
+        @extend %transition;
+
+        color: $color-text;
+
+        &:hover {
+            color: $color-hover;
+            background-color: $headl-primary-color;
+        }
+
+        a {
+          //To make the whole space a link,not only the letter
+            display: list-item;
+            list-style-type: none;
+            color: inherit;
+            text-decoration: inherit;
+            background: none;
+        }
     }
-    a {
-      color: inherit;
-      text-decoration: inherit;
-      background: none;
-    }
-  }
 }
 
 ul.nav {
-  @include media(768px) {
-    @include flexy($just: center, $dir: row, $align: center);
-    text-align: center;
-  }
+    @include media(768px) {
+        @include flexy($just: center, $dir: row, $align: center);
+
+        text-align: center;
+    }
 }
+
 nav {
-  @include media(768px) {
-    @include flexy($just: space-around, $dir: row, $align: center);
-    margin-top: 20px;
-    margin-left: 100px;
-    width: 70%;
-  }
+    @include media(768px) {
+        @include flexy($just: space-around, $dir: row, $align: center);
+
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 70%;
+    }
 }
-.nav__item{
-  @include media(1440px){
-    font-size: get-vw(20px);
-  }
-  @include media(768px) {
-    font-size: get-vw(20px);
-  }
-  @include media(1024px) {
-    font-size: get-vw(18px);
-  }
+
+.nav__item {
+    @include media(1440px) {
+        font-size: get-vw(20px);
+    }
+
+
+    @include media(768px) {
+        font-size: get-vw(20px);
+    }
+
+
+    @include media(1024px) {
+        font-size: get-vw(18px);
+    }
 }
